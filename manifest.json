@@ -3,16 +3,6 @@
   "name": "working-time-viewer",
   "version": "0.0.0",
   "description": "Calculation working time",
-  "permissions": ["activeTab"],
-  "content_scripts": [
-    {
-      "js": ["bootstrap.js"],
-      "matches": ["*://*.github.com/*/*/projects/*"],
-      "run_at": "document_end"
-    }
-  ],
-  "icons": {
-    "128": "icon.png"
-  },
-  "web_accessible_resources": ["bootstrap.js", "images/icon_128.png"]
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "permissions": ["activeTab"]
 }

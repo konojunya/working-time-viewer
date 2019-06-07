@@ -1,6 +1,8 @@
 const path = require("path");
 const { DefinePlugin } = require("webpack");
 const TerserPlugin = require("terser-webpack-plugin");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+const WorkerPlugin = require("worker-plugin");
 
 const IS_PRODUCTION = process.env.NODE_ENV === "production";
 
@@ -11,9 +13,9 @@ module.exports = {
     bootstrap: path.join(__dirname, "./src/index.ts")
   },
   output: {
-    filename: "[name].js",
-    chunkFilename: "[name].js",
-    sourceMapFilename: "[name].js.map",
+    filename: "[name].[chunkhash].js",
+    chunkFilename: "[name].[chunkhash].js",
+    sourceMapFilename: "[name].[chunkhash].js.map",
     path: path.join(__dirname, "./dist")
   },
   resolve: {
@@ -39,6 +41,8 @@ module.exports = {
     ]
   },
   plugins: [
+    new WorkerPlugin(),
+    new HtmlWebpackPlugin({ template: "src/index.html" }),
     new DefinePlugin({
       "process.env": {
         NODE_ENV: JSON.stringify(process.env.NODE_ENV || "local")
