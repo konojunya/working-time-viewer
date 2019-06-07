@@ -1,0 +1,1759 @@
+<div class="project-column position-relative d-flex flex-auto flex-column overflow-hidden mr-3 v-align-top rounded-2 border ws-normal js-project-column js-socket-channel js-keyboard-movable hide-sm" id="column-2731060" tabindex="0" data-retain-focus="" data-url="/chotchy-inc/PATRASHOP-Web/projects/1/columns/2731060" data-id="2731060">
+  <div class="clearfix js-details-container details-container Details js-add-note-container">
+     <div class="hide-sm position-relative p-sm-2">
+        <details class="details-reset details-overlay column-menu-container dropdown float-right position-static hide-sm">
+           <summary class="text-gray-light btn-octicon p-1" aria-label="Column menu" aria-haspopup="menu">
+              <svg class="octicon octicon-kebab-horizontal" viewBox="0 0 13 16" version="1.1" width="13" height="16" aria-hidden="true">
+                 <path fill-rule="evenodd" d="M1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM13 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"></path>
+              </svg>
+           </summary>
+           <details-menu class="dropdown-menu dropdown-menu-sw top-0 mt-5" role="menu">
+              <button data-dialog-id="edit-column-2731060" class="dropdown-item btn-link btn-block text-left js-project-dialog-button" role="menuitem" aria-expanded="false" aria-haspopup="dialog">
+              Edit column
+              </button>
+              <button data-dialog-id="edit-column-automation-2731060" class="dropdown-item btn-link btn-block text-left js-project-dialog-button" role="menuitem" aria-expanded="false" aria-haspopup="dialog">
+              Manage automation
+              </button>
+              <button data-dialog-id="archive-column-2731060" class="dropdown-item btn-link btn-block text-left js-project-dialog-button" role="menuitem" aria-expanded="false" aria-haspopup="dialog">
+              Archive all cards
+              </button>
+              <hr class="p-0 mt-2 mb-2">
+              <clipboard-copy class="dropdown-item text-left btn-link" value="https://github.com/chotchy-inc/PATRASHOP-Web/projects/1#column-2731060" role="menuitem" tabindex="0">
+                 Copy column link
+              </clipboard-copy>
+              <hr class="p-0 mt-2 mb-2">
+              <button data-dialog-id="delete-column-2731060" class="dropdown-item btn-link btn-block text-left js-project-dialog-button" role="menuitem" aria-expanded="false" aria-haspopup="dialog">
+              Delete column
+              </button>
+           </details-menu>
+        </details>
+        <template id="archive-column-2731060">
+           <div class="Box-header">
+              <h3 class="Box-title">Archive all cards in Done</h3>
+           </div>
+           <div class="Box-body border-0 rounded-0 m-0 pb-0 overflow-auto">
+              <p>Are you sure you want to archive all cards in the <span class="text-bold">Done</span> column? You will not be able to undo this action.</p>
+              <!-- '"` --><!-- </textarea></xmp> -->
+              <form data-column-id="2731060" class="pb-3 js-archive-project-column d-flex flex-column d-sm-block pt-2" action="/chotchy-inc/PATRASHOP-Web/projects/1/columns/2731060/archive" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="put"><input type="hidden" name="authenticity_token" value="G+vW3YlYDgGxHOWcilxhHZGv4nzWmlvorcjKqaWeROzjyIhDHMJzMK6XE0p2o9uVgwTkdeUBZMFOjfw3URlIMA==">
+                 <button class="btn btn-blue flex-auto" type="submit" data-disable-with="Archiving cards...">
+                 Archive all cards
+                 </button>
+                 <button type="button" class="btn flex-auto mt-2 mt-sm-0" data-close-dialog="">Cancel</button>
+                 <input type="hidden" name="client_uid" class="js-client-uid-field">
+              </form>
+           </div>
+        </template>
+        <template id="delete-column-2731060">
+           <div class="Box-header">
+              <h3 class="Box-title">Delete Done</h3>
+           </div>
+           <div class="Box-body border-0 rounded-0 m-0 pb-0 overflow-auto">
+              <p>This action will remove any cards and automation preset associated with the column.</p>
+              <!-- '"` --><!-- </textarea></xmp> -->
+              <form data-column-id="2731060" class="pb-3 js-delete-project-column d-flex flex-column d-sm-block" action="/chotchy-inc/PATRASHOP-Web/projects/1/columns/2731060" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="delete"><input type="hidden" name="authenticity_token" value="qiXgTub56ZPKJ7DeYX+p91anl6D1rQrogfnrSWbJQ6ZJCBzI3DUgc3YknAatcbWkTOJfkG3QgHZNel3axgZHHg==">
+                 <button class="btn btn-danger flex-auto" type="submit" data-disable-with="Deleting column...">
+                 Delete column
+                 </button>
+                 <button type="button" class="btn flex-auto mt-2 mt-sm-0" data-close-dialog="">Cancel</button>
+                 <input type="hidden" name="client_uid" class="js-client-uid-field">
+              </form>
+           </div>
+        </template>
+        <template id="edit-column-2731060">
+           <div class="d-flex flex-column flex-auto overflow-hidden js-column-form-container">
+              <div class="Box-header">
+                 <h3 class="Box-title">Edit Done</h3>
+              </div>
+              <div class="Box-body border-0 rounded-0 m-0 py-0 overflow-auto">
+                 <!-- '"` --><!-- </textarea></xmp> -->
+                 <form data-column-id="2731060" autocomplete="off" class="pb-3 js-update-project-column" action="/chotchy-inc/PATRASHOP-Web/projects/1/columns/2731060" accept-charset="UTF-8" method="post">
+                    <input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="put"><input type="hidden" name="authenticity_token" value="hO1FtltlPYIPciaPaZP4Sdv46fFmkrhsvXL0Ux8V4sx2iR0rqVneESkG2nNVWzxT7ULdJ/eq24/1miRqzdXvSQ==">
+                    <input type="hidden" name="client_uid" class="js-client-uid-field">
+                    <dl class="form-group ">
+                       <dt>
+                          <label for="project-column-name-2731060">Column name</label>
+                       </dt>
+                       <dd>
+                          <input type="text" class="js-project-column-name-field js-quick-submit form-control" name="project_column[name]" id="project-column-name-2731060" value="Done" placeholder="Enter a column name (To Do, In Progress, Done)" maxlength="140" required="" autofocus="">
+                       </dd>
+                       <dd class="error">
+                       </dd>
+                    </dl>
+                    <div class="d-flex d-sm-block">
+                       <button class="btn btn-primary flex-auto" data-disable-invalid="" data-disable-with="Updating column..." type="submit">
+                       Update column
+                       </button>
+                    </div>
+                 </form>
+              </div>
+           </div>
+        </template>
+        <template id="edit-column-automation-2731060">
+           <div class="d-flex flex-column flex-auto overflow-hidden js-column-form-container">
+              <div class="Box-header">
+                 <h3 class="Box-title">Manage automation for Done</h3>
+              </div>
+              <div class="Box-body border-0 rounded-0 m-0 py-0 overflow-auto">
+                 <!-- '"` --><!-- </textarea></xmp> -->
+                 <form data-column-id="2731060" autocomplete="off" class="pb-3 js-update-project-column js-column-settings-form" action="/chotchy-inc/PATRASHOP-Web/projects/1/columns/2731060/workflow" accept-charset="UTF-8" method="post">
+                    <input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="put"><input type="hidden" name="authenticity_token" value="lTrAnnWnSqIAnIVU98UsxHrxCtPYHw88tlBx3DfvfMS6eFUU1AVzd+GRFgdSvbU3JsUwvjRw34ycI79ExlwEMg==">
+                    <input type="hidden" name="client_uid" class="js-client-uid-field">
+                    <dl class="form-group ">
+                       <dt>
+                          <p>
+                             Choose a preset to enable progress tracking, automation, and better context sharing across your project.
+                          </p>
+                       </dt>
+                       <dd>
+                          <div class="select-menu js-menu-container js-select-menu js-column-purpose-selector">
+                             <div class="d-flex flex-column d-sm-block">
+                                <button class="btn flex-auto select-menu-button js-menu-target js-column-purpose-button" type="button" aria-haspopup="true" aria-expanded="false" disabled="">
+                                <i>Preset:</i>
+                                <span class="js-select-button">Done</span>
+                                </button>
+                                <img class="mt-2 mt-sm-0 ml-sm-2 d-inline flex-self-center v-align-middle d-none js-project-autmoation-loader" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-64.gif" width="24" height="24">
+                             </div>
+                             <div class="select-menu-modal-holder">
+                                <div class="select-menu-modal subscription-menu-modal js-menu-content" aria-hidden="false">
+                                   <div class="select-menu-header js-navigation-enable" tabindex="-1">
+                                      <button class="btn-link close-button js-menu-close" type="button">
+                                         <svg aria-label="Close menu" class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img">
+                                            <path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"></path>
+                                         </svg>
+                                      </button>
+                                      <span class="select-menu-title">Select type</span>
+                                   </div>
+                                   <div class="select-menu-list js-navigation-container">
+                                      <div class="select-menu-item js-navigation-item " role="menuitem">
+                                         <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true">
+                                            <path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"></path>
+                                         </svg>
+                                         <div class="select-menu-item-text">
+                                            <span class="select-menu-item-heading">None</span>
+                                            <input class="js-column-purpose-value" type="radio" name="project_column[purpose]" value="" required="">
+                                            <span class="description">This column will not be automated</span>
+                                            <span class="js-select-button-text hidden-select-button-text">
+                                            None
+                                            </span>
+                                         </div>
+                                      </div>
+                                      <div class="select-menu-item js-navigation-item " role="menuitem">
+                                         <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true">
+                                            <path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"></path>
+                                         </svg>
+                                         <div class="select-menu-item-text">
+                                            <span class="select-menu-item-heading">To do</span>
+                                            <input class="js-column-purpose-value" type="radio" name="project_column[purpose]" value="TODO" required="">
+                                            <span class="description">Planned but not started</span>
+                                            <span class="js-select-button-text hidden-select-button-text">
+                                            To do
+                                            </span>
+                                         </div>
+                                      </div>
+                                      <div class="select-menu-item js-navigation-item " role="menuitem">
+                                         <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true">
+                                            <path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"></path>
+                                         </svg>
+                                         <div class="select-menu-item-text">
+                                            <span class="select-menu-item-heading">In progress</span>
+                                            <input class="js-column-purpose-value" type="radio" name="project_column[purpose]" value="IN_PROGRESS" required="">
+                                            <span class="description">Actively being worked on</span>
+                                            <span class="js-select-button-text hidden-select-button-text">
+                                            In progress
+                                            </span>
+                                         </div>
+                                      </div>
+                                      <div class="select-menu-item js-navigation-item selected" role="menuitem">
+                                         <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true">
+                                            <path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"></path>
+                                         </svg>
+                                         <div class="select-menu-item-text">
+                                            <span class="select-menu-item-heading">Done</span>
+                                            <input class="js-column-purpose-value" type="radio" name="project_column[purpose]" value="DONE" checked="" required="">
+                                            <span class="description">Items are complete</span>
+                                            <span class="js-select-button-text hidden-select-button-text">
+                                            Done
+                                            </span>
+                                         </div>
+                                      </div>
+                                   </div>
+                                </div>
+                             </div>
+                             <div class="position-relative overflow-auto js-project-column-automation" data-id="2731060" data-src="/chotchy-inc/PATRASHOP-Web/projects/1/automation_options">
+                                <div class="js-project-automation-options"></div>
+                             </div>
+                          </div>
+                       </dd>
+                       <dd class="error">
+                       </dd>
+                    </dl>
+                    <div class="d-flex d-sm-block">
+                       <button class="btn btn-primary flex-auto" data-disable-invalid="" data-disable-with="Updating automation..." type="submit">
+                       Update automation
+                       </button>
+                    </div>
+                 </form>
+              </div>
+           </div>
+        </template>
+        <button type="button" class="float-right js-details-target btn-octicon p-1 tooltipped tooltipped-w hide-sm column-menu-item" aria-label="Add a note to this column" aria-expanded="false">
+           <svg class="octicon octicon-plus" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true">
+              <path fill-rule="evenodd" d="M12 9H7v5H5V9H0V7h5V2h2v5h5v2z"></path>
+           </svg>
+        </button>
+        <h4 class="px-1 m-0 f5 v-align-middle d-inline">
+           <span class="Counter Counter--gray-light mr-1 position-relative js-column-card-count" aria-label="Contains 19 items">19</span>
+           <span class="js-project-column-name">Done</span>
+           <span class="sr-only">Press enter to move this column</span>
+        </h4>
+     </div>
+     <div class="project-note-form mt-sm-1 p-2 Details-content--hidden">
+        <!-- '"` --><!-- </textarea></xmp> -->
+        <form class="js-project-note-form js-length-limited-input-container" action="/chotchy-inc/PATRASHOP-Web/projects/1/columns/2731060/cards" accept-charset="UTF-8" method="post">
+           <input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="put"><input type="hidden" name="authenticity_token" value="YysthXBgKRrTUpA0t38CQST04xW4m9Ll6KHpib6/jY/yT2tZU0AWtrOAMRFpNlJfp+ROjOejHG6eb6k9nl1UBQ==">
+           <input type="hidden" name="content_type" value="Note">
+           <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+           <textarea name="note" required="" autofocus="" aria-label="Enter a note" class="form-control input-block js-quick-submit js-size-to-fit js-note-text js-length-limited-input" data-input-max-length="1024" data-warning-length="99" data-warning-text="{{remaining}} remaining" placeholder="Enter a note"></textarea>
+           <p class="js-length-limited-input-warning d-none mt-3 mb-0 text-center"></p>
+           <div class="d-flex mt-2">
+              <button type="submit" class="btn btn-primary flex-item-equal mr-1" data-disable-invalid="" disabled="">Add</button>
+              <button type="button" class="btn flex-item-equal ml-1 js-dismiss-note-form-button">Cancel</button>
+           </div>
+        </form>
+        <!-- '"` --><!-- </textarea></xmp> -->
+        <form class="js-preview-note-form" action="/chotchy-inc/PATRASHOP-Web/projects/1/preview_note" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="✓">
+           <input type="hidden" name="note">
+        </form>
+        <div class="js-note-preview"></div>
+     </div>
+  </div>
+  <p class="js-filtered-column-card-count mt-2 mb-0 f6 text-center text-gray-light d-none"></p>
+  <div id="column-cards-2731060" class="position-relative flex-auto overflow-auto px-2 pb-6 mb-6 mb-sm-0 pb-sm-2 js-project-column-cards js-card-drag-container " data-id="2731060">
+     <div class="issue-card project-card position-relative rounded-2 box-shadow bg-white my-2 mx-0 border ws-normal js-project-column-card js-socket-channel js-updatable-content draggable js-keyboard-movable" id="card-22253621" tabindex="0" data-retain-focus="" data-channel="projects:cards:22253621" data-url="/chotchy-inc/PATRASHOP-Web/projects/1/cards/22253621" data-card-id="22253621" data-column-id="2731060" data-content-type="Issue" data-content-id="448554482" data-card-assignee="[&quot;kinokoruumu&quot;]" data-card-author="[&quot;kinokoruumu&quot;]" data-card-label="[&quot;enhancement&quot;]" data-card-repo="[&quot;chotchy-inc/patrashop-web&quot;]" data-card-state="[&quot;closed&quot;]" data-card-title="[&quot;あと◯◯円購入で送料無料を実装&quot;,&quot;(3h)&quot;,&quot;772&quot;,&quot;#772&quot;]" data-card-type="[&quot;issue&quot;]" data-card-is="[&quot;closed&quot;,&quot;issue&quot;]">
+        <div class="archived-header d-none flex-row border-bottom p-2 text-small">
+           <div class="flex-auto d-flex flex-row min-width-0 position-relative">
+              <div class="d-flex flex-row">
+                 <svg class="octicon octicon-archive" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M13 2H1v2h12V2zM0 4a1 1 0 0 0 1 1v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H1a1 1 0 0 0-1 1v2zm2 1h10v9H2V5zm2 3h6V7H4v1z"></path>
+                 </svg>
+              </div>
+              <div class="d-flex flex-row flex-auto">
+                 <div class="pl-2 pr-3">
+                    From <span class="text-bold">Done</span>
+                 </div>
+              </div>
+              <div class="d-flex flex-row">
+                 <!-- '"` --><!-- </textarea></xmp> -->
+                 <form class="js-unarchive-project-card" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/22253621/unarchive" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="put"><input type="hidden" name="authenticity_token" value="lNH2epOzle6eRg0cLaYpIdjmpN9cgCQqeLPANAefUHiH8Ug+D7am7O/oS90M4L/QkXoWQUGvfQxEjzbInP0vlA==">
+                    <button class="btn-link" type="submit">Restore</button>
+                    <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                 </form>
+              </div>
+           </div>
+        </div>
+        <div class="d-flex flex-row">
+           <div class="flex-auto min-width-0 position-relative">
+              <div class="pl-5 p-2 position-relative js-project-issue-details-container">
+                 <details class="details-reset details-overlay card-menu-container dropdown position-static">
+                    <summary class="text-gray-light link-hover-blue btn-octicon p-0 position-absolute right-0 top-0 mt-2 mr-3" aria-label="Card menu" aria-haspopup="menu">
+                       <svg class="octicon octicon-kebab-horizontal" viewBox="0 0 13 16" version="1.1" width="13" height="16" aria-hidden="true">
+                          <path fill-rule="evenodd" d="M1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM13 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"></path>
+                       </svg>
+                    </summary>
+                    <details-menu class="dropdown-menu dropdown-menu-sw top-0 mt-4 mr-1" role="menu">
+                       <clipboard-copy class="dropdown-item text-left btn-link" value="https://github.com/chotchy-inc/PATRASHOP-Web/projects/1#card-22253621" role="menuitem" tabindex="0">
+                          Copy card link
+                       </clipboard-copy>
+                       <hr class="p-0 mt-2 mb-2">
+                       <!-- '"` --><!-- </textarea></xmp> -->
+                       <form class="js-archive-project-card archive-dropdown-item" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/22253621/archive" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="put"><input type="hidden" name="authenticity_token" value="Fd/ORl9sHrP03gV39ahWZwvfsqON1+b5OSSkf0lbBsDlrYn532pMhgVvmkGOciBH1NqyATm73rsAac+wUSzRpw==">
+                          <button class="dropdown-item text-left btn-link btn-block" type="submit" role="menuitem">Archive</button>
+                          <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                       </form>
+                       <!-- '"` --><!-- </textarea></xmp> -->
+                       <form class="js-remove-card-after-request d-inline" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/22253621" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="delete"><input type="hidden" name="authenticity_token" value="Zq7qT5+JhubGOzYE9MvhNPXcMNXSe8+c7ajTtSFPCZj3crfYtMR8kD7yDtP62IOhD+TFeL8mrer0RWkp5YfV4A==">
+                          <button type="submit" aria-label="Remove from project" class="dropdown-item btn-link btn-block text-left" data-confirm="This will remove this card from the project" role="menuitem">
+                          Remove from project
+                          </button>
+                          <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                       </form>
+                    </details-menu>
+                 </details>
+                 <span class="card-octicon position-absolute">
+                    <div class="text-green">
+                       <svg class="octicon octicon-issue-closed closed js-issue-octicon" aria-label="Closed Issue" viewBox="0 0 16 16" version="1.1" width="16" height="16" role="img">
+                          <path fill-rule="evenodd" d="M7 10h2v2H7v-2zm2-6H7v5h2V4zm1.5 1.5l-1 1L12 9l4-4.5-1-1L12 7l-1.5-1.5zM8 13.7A5.71 5.71 0 0 1 2.3 8c0-3.14 2.56-5.7 5.7-5.7 1.83 0 3.45.88 4.5 2.2l.92-.92A6.947 6.947 0 0 0 8 1C4.14 1 1 4.14 1 8s3.14 7 7 7 7-3.14 7-7l-1.52 1.52c-.66 2.41-2.86 4.19-5.48 4.19v-.01z"></path>
+                       </svg>
+                    </div>
+                 </span>
+                 <a class="h5 d-block lh-condensed mb-1 mr-5 js-project-card-issue-link" data-content-id="448554482" data-content-label="issue" data-content-repo-label="chotchy-inc/PATRASHOP-Web" data-content-repo-url="/chotchy-inc/PATRASHOP-Web" href="/chotchy-inc/PATRASHOP-Web/issues/772">あと◯◯円購入で送料無料を実装 (3h)</a>
+                 <small class="text-gray d-block pr-6">
+                 <span class="js-issue-number">#772</span>
+                 opened by <a class="text-gray-dark" href="/kinokoruumu">kinokoruumu</a>
+                 </small>
+                 <span class="labels d-block pb-1 pr-6">
+                 <button type="button" class="btn-link css-truncate js-card-filter issue-card-label IssueLabel mt-1 v-align-middle css-truncate css-truncate-target" style="max-width: 150px; background-color: #a2eeef; color: #000000" data-card-filter="label:enhancement" title="機能追加">
+                 <span class="css-truncate-target">enhancement</span>
+                 </button>
+                 </span>
+                 <div class="AvatarStack AvatarStack--right  position-absolute bottom-0 right-0 mr-2 mb-2">
+                    <div class="AvatarStack-body tooltipped tooltipped-nw tooltipped-multiline tooltipped-align-right-1" aria-label="Assigned to kinokoruumu">
+                       <button type="button" class="btn-link avatar js-card-filter" aria-label="Assignee kinokoruumu" data-card-filter="assignee:kinokoruumu">
+                       <img src="https://avatars1.githubusercontent.com/u/15682771?s=40&amp;v=4" width="20" height="20" alt="@kinokoruumu">
+                       </button>
+                    </div>
+                 </div>
+              </div>
+              <span class="sr-only">Press enter to move this card</span>
+           </div>
+        </div>
+     </div>
+     <div class="issue-card project-card position-relative rounded-2 box-shadow bg-white my-2 mx-0 border ws-normal js-project-column-card js-socket-channel js-updatable-content draggable js-keyboard-movable" id="card-22253193" tabindex="0" data-retain-focus="" data-channel="projects:cards:22253193" data-url="/chotchy-inc/PATRASHOP-Web/projects/1/cards/22253193" data-card-id="22253193" data-column-id="2731060" data-content-type="Issue" data-content-id="451073101" data-card-assignee="[&quot;konojunya&quot;]" data-card-author="[&quot;konojunya&quot;]" data-card-label="[&quot;enhancement&quot;]" data-card-repo="[&quot;chotchy-inc/patrashop-web&quot;]" data-card-state="[&quot;closed&quot;]" data-card-title="[&quot;storybookのdeployする（5h）&quot;,&quot;776&quot;,&quot;#776&quot;]" data-card-type="[&quot;issue&quot;]" data-card-is="[&quot;closed&quot;,&quot;issue&quot;]">
+        <div class="archived-header d-none flex-row border-bottom p-2 text-small">
+           <div class="flex-auto d-flex flex-row min-width-0 position-relative">
+              <div class="d-flex flex-row">
+                 <svg class="octicon octicon-archive" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M13 2H1v2h12V2zM0 4a1 1 0 0 0 1 1v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H1a1 1 0 0 0-1 1v2zm2 1h10v9H2V5zm2 3h6V7H4v1z"></path>
+                 </svg>
+              </div>
+              <div class="d-flex flex-row flex-auto">
+                 <div class="pl-2 pr-3">
+                    From <span class="text-bold">Done</span>
+                 </div>
+              </div>
+              <div class="d-flex flex-row">
+                 <!-- '"` --><!-- </textarea></xmp> -->
+                 <form class="js-unarchive-project-card" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/22253193/unarchive" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="put"><input type="hidden" name="authenticity_token" value="Y6Q15COL15FxFWCJ+noNeY1Q2CaO1FO5V7tETdj+7UzQp0Xq2KTxZcIOiXxAkWB6hxZOBByX25Ub2CFDWJN+2g==">
+                    <button class="btn-link" type="submit">Restore</button>
+                    <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                 </form>
+              </div>
+           </div>
+        </div>
+        <div class="d-flex flex-row">
+           <div class="flex-auto min-width-0 position-relative">
+              <div class="pl-5 p-2 position-relative js-project-issue-details-container">
+                 <details class="details-reset details-overlay card-menu-container dropdown position-static">
+                    <summary class="text-gray-light link-hover-blue btn-octicon p-0 position-absolute right-0 top-0 mt-2 mr-3" aria-label="Card menu" aria-haspopup="menu">
+                       <svg class="octicon octicon-kebab-horizontal" viewBox="0 0 13 16" version="1.1" width="13" height="16" aria-hidden="true">
+                          <path fill-rule="evenodd" d="M1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM13 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"></path>
+                       </svg>
+                    </summary>
+                    <details-menu class="dropdown-menu dropdown-menu-sw top-0 mt-4 mr-1" role="menu">
+                       <clipboard-copy class="dropdown-item text-left btn-link" value="https://github.com/chotchy-inc/PATRASHOP-Web/projects/1#card-22253193" role="menuitem" tabindex="0">
+                          Copy card link
+                       </clipboard-copy>
+                       <hr class="p-0 mt-2 mb-2">
+                       <!-- '"` --><!-- </textarea></xmp> -->
+                       <form class="js-archive-project-card archive-dropdown-item" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/22253193/archive" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="put"><input type="hidden" name="authenticity_token" value="coNiB36WKF+GwZIvZPzEwBAcXUE4+dch1/yPfFOIn+/CPp/VDBxhxhC2i+wHg9WTLcsPNTUwG3ufKLkgYt7t4Q==">
+                          <button class="dropdown-item text-left btn-link btn-block" type="submit" role="menuitem">Archive</button>
+                          <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                       </form>
+                       <!-- '"` --><!-- </textarea></xmp> -->
+                       <form class="js-remove-card-after-request d-inline" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/22253193" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="delete"><input type="hidden" name="authenticity_token" value="I5/mk75zgCFZOFuMMVM4gwQz2GbOEHHuXsrntDw4acy36JbMp6BrXDuan4ZsyDLlhCafYfg9MF7HP/dV0nugAw==">
+                          <button type="submit" aria-label="Remove from project" class="dropdown-item btn-link btn-block text-left" data-confirm="This will remove this card from the project" role="menuitem">
+                          Remove from project
+                          </button>
+                          <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                       </form>
+                    </details-menu>
+                 </details>
+                 <span class="card-octicon position-absolute">
+                    <div class="text-green">
+                       <svg class="octicon octicon-issue-closed closed js-issue-octicon" aria-label="Closed Issue" viewBox="0 0 16 16" version="1.1" width="16" height="16" role="img">
+                          <path fill-rule="evenodd" d="M7 10h2v2H7v-2zm2-6H7v5h2V4zm1.5 1.5l-1 1L12 9l4-4.5-1-1L12 7l-1.5-1.5zM8 13.7A5.71 5.71 0 0 1 2.3 8c0-3.14 2.56-5.7 5.7-5.7 1.83 0 3.45.88 4.5 2.2l.92-.92A6.947 6.947 0 0 0 8 1C4.14 1 1 4.14 1 8s3.14 7 7 7 7-3.14 7-7l-1.52 1.52c-.66 2.41-2.86 4.19-5.48 4.19v-.01z"></path>
+                       </svg>
+                    </div>
+                 </span>
+                 <a class="h5 d-block lh-condensed mb-1 mr-5 js-project-card-issue-link" data-content-id="451073101" data-content-label="issue" data-content-repo-label="chotchy-inc/PATRASHOP-Web" data-content-repo-url="/chotchy-inc/PATRASHOP-Web" href="/chotchy-inc/PATRASHOP-Web/issues/776">storybookのdeployする（5h）</a>
+                 <small class="text-gray d-block pr-6">
+                 <span class="js-issue-number">#776</span>
+                 opened by <a class="text-gray-dark" href="/konojunya">konojunya</a>
+                 </small>
+                 <span class="labels d-block pb-1 pr-6">
+                 <button type="button" class="btn-link css-truncate js-card-filter issue-card-label IssueLabel mt-1 v-align-middle css-truncate css-truncate-target" style="max-width: 150px; background-color: #a2eeef; color: #000000" data-card-filter="label:enhancement" title="機能追加">
+                 <span class="css-truncate-target">enhancement</span>
+                 </button>
+                 </span>
+                 <div class="AvatarStack AvatarStack--right  position-absolute bottom-0 right-0 mr-2 mb-2">
+                    <div class="AvatarStack-body tooltipped tooltipped-nw tooltipped-multiline tooltipped-align-right-1" aria-label="Assigned to konojunya">
+                       <button type="button" class="btn-link avatar js-card-filter" aria-label="Assignee konojunya" data-card-filter="assignee:konojunya">
+                       <img src="https://avatars2.githubusercontent.com/u/12035578?s=40&amp;v=4" width="20" height="20" alt="@konojunya">
+                       </button>
+                    </div>
+                 </div>
+              </div>
+              <span class="sr-only">Press enter to move this card</span>
+           </div>
+        </div>
+     </div>
+     <div class="issue-card project-card position-relative rounded-2 box-shadow bg-white my-2 mx-0 border ws-normal js-project-column-card js-socket-channel js-updatable-content draggable js-keyboard-movable" id="card-21933069" tabindex="0" data-retain-focus="" data-channel="projects:cards:21933069" data-url="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21933069" data-card-id="21933069" data-column-id="2731060" data-content-type="Issue" data-content-id="447985858" data-card-assignee="[&quot;konojunya&quot;]" data-card-author="[&quot;konojunya&quot;]" data-card-label="[&quot;enhancement&quot;]" data-card-repo="[&quot;chotchy-inc/patrashop-web&quot;]" data-card-state="[&quot;closed&quot;]" data-card-title="[&quot;deferでhtmlのパースを邪魔しないようにする（1h）&quot;,&quot;767&quot;,&quot;#767&quot;]" data-card-type="[&quot;issue&quot;]" data-card-is="[&quot;closed&quot;,&quot;issue&quot;]">
+        <div class="archived-header d-none flex-row border-bottom p-2 text-small">
+           <div class="flex-auto d-flex flex-row min-width-0 position-relative">
+              <div class="d-flex flex-row">
+                 <svg class="octicon octicon-archive" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M13 2H1v2h12V2zM0 4a1 1 0 0 0 1 1v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H1a1 1 0 0 0-1 1v2zm2 1h10v9H2V5zm2 3h6V7H4v1z"></path>
+                 </svg>
+              </div>
+              <div class="d-flex flex-row flex-auto">
+                 <div class="pl-2 pr-3">
+                    From <span class="text-bold">Done</span>
+                 </div>
+              </div>
+              <div class="d-flex flex-row">
+                 <!-- '"` --><!-- </textarea></xmp> -->
+                 <form class="js-unarchive-project-card" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21933069/unarchive" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="put"><input type="hidden" name="authenticity_token" value="jB1ADdpx6youPt01vLFuAFH6uMfDSgqgrznSxRBw7ZWarOyhj0yuR2PFlIHpw1g0X34vqnbEiDL749Gt6uboiw==">
+                    <button class="btn-link" type="submit">Restore</button>
+                    <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                 </form>
+              </div>
+           </div>
+        </div>
+        <div class="d-flex flex-row">
+           <div class="flex-auto min-width-0 position-relative">
+              <div class="pl-5 p-2 position-relative js-project-issue-details-container">
+                 <details class="details-reset details-overlay card-menu-container dropdown position-static">
+                    <summary class="text-gray-light link-hover-blue btn-octicon p-0 position-absolute right-0 top-0 mt-2 mr-3" aria-label="Card menu" aria-haspopup="menu">
+                       <svg class="octicon octicon-kebab-horizontal" viewBox="0 0 13 16" version="1.1" width="13" height="16" aria-hidden="true">
+                          <path fill-rule="evenodd" d="M1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM13 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"></path>
+                       </svg>
+                    </summary>
+                    <details-menu class="dropdown-menu dropdown-menu-sw top-0 mt-4 mr-1" role="menu">
+                       <clipboard-copy class="dropdown-item text-left btn-link" value="https://github.com/chotchy-inc/PATRASHOP-Web/projects/1#card-21933069" role="menuitem" tabindex="0">
+                          Copy card link
+                       </clipboard-copy>
+                       <hr class="p-0 mt-2 mb-2">
+                       <!-- '"` --><!-- </textarea></xmp> -->
+                       <form class="js-archive-project-card archive-dropdown-item" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21933069/archive" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="put"><input type="hidden" name="authenticity_token" value="q/jAc7lnkc0DGl7sdp3tBxnhYq3h07bsqFRFmD5xmmO2qqG6R6wNUmgu/L+lGN6Yt9bW85mZXBHkG3ZmLrhT0A==">
+                          <button class="dropdown-item text-left btn-link btn-block" type="submit" role="menuitem">Archive</button>
+                          <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                       </form>
+                       <!-- '"` --><!-- </textarea></xmp> -->
+                       <form class="js-remove-card-after-request d-inline" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21933069" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="delete"><input type="hidden" name="authenticity_token" value="vXNOqmYGpcdYT7WHbOfa0UzRuSL+pO5UAdmCkP71vTF69T3NmY0MNM7K5FNK6Wzbn9PgrLsnk4fF7I4FaaZJ3A==">
+                          <button type="submit" aria-label="Remove from project" class="dropdown-item btn-link btn-block text-left" data-confirm="This will remove this card from the project" role="menuitem">
+                          Remove from project
+                          </button>
+                          <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                       </form>
+                    </details-menu>
+                 </details>
+                 <span class="card-octicon position-absolute">
+                    <div class="text-green">
+                       <svg class="octicon octicon-issue-closed closed js-issue-octicon" aria-label="Closed Issue" viewBox="0 0 16 16" version="1.1" width="16" height="16" role="img">
+                          <path fill-rule="evenodd" d="M7 10h2v2H7v-2zm2-6H7v5h2V4zm1.5 1.5l-1 1L12 9l4-4.5-1-1L12 7l-1.5-1.5zM8 13.7A5.71 5.71 0 0 1 2.3 8c0-3.14 2.56-5.7 5.7-5.7 1.83 0 3.45.88 4.5 2.2l.92-.92A6.947 6.947 0 0 0 8 1C4.14 1 1 4.14 1 8s3.14 7 7 7 7-3.14 7-7l-1.52 1.52c-.66 2.41-2.86 4.19-5.48 4.19v-.01z"></path>
+                       </svg>
+                    </div>
+                 </span>
+                 <a class="h5 d-block lh-condensed mb-1 mr-5 js-project-card-issue-link" data-content-id="447985858" data-content-label="issue" data-content-repo-label="chotchy-inc/PATRASHOP-Web" data-content-repo-url="/chotchy-inc/PATRASHOP-Web" href="/chotchy-inc/PATRASHOP-Web/issues/767">deferでhtmlのパースを邪魔しないようにする（1h）</a>
+                 <small class="text-gray d-block pr-6">
+                 <span class="js-issue-number">#767</span>
+                 opened by <a class="text-gray-dark" href="/konojunya">konojunya</a>
+                 </small>
+                 <span class="labels d-block pb-1 pr-6">
+                 <button type="button" class="btn-link css-truncate js-card-filter issue-card-label IssueLabel mt-1 v-align-middle css-truncate css-truncate-target" style="max-width: 150px; background-color: #a2eeef; color: #000000" data-card-filter="label:enhancement" title="機能追加">
+                 <span class="css-truncate-target">enhancement</span>
+                 </button>
+                 </span>
+                 <div class="AvatarStack AvatarStack--right  position-absolute bottom-0 right-0 mr-2 mb-2">
+                    <div class="AvatarStack-body tooltipped tooltipped-nw tooltipped-multiline tooltipped-align-right-1" aria-label="Assigned to konojunya">
+                       <button type="button" class="btn-link avatar js-card-filter" aria-label="Assignee konojunya" data-card-filter="assignee:konojunya">
+                       <img src="https://avatars2.githubusercontent.com/u/12035578?s=40&amp;v=4" width="20" height="20" alt="@konojunya">
+                       </button>
+                    </div>
+                 </div>
+              </div>
+              <span class="sr-only">Press enter to move this card</span>
+           </div>
+        </div>
+     </div>
+     <div class="issue-card project-card position-relative rounded-2 box-shadow bg-white my-2 mx-0 border ws-normal js-project-column-card js-socket-channel js-updatable-content draggable js-keyboard-movable" id="card-21938189" tabindex="0" data-retain-focus="" data-channel="projects:cards:21938189" data-url="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21938189" data-card-id="21938189" data-column-id="2731060" data-content-type="Issue" data-content-id="446966238" data-card-assignee="[&quot;konojunya&quot;]" data-card-author="[&quot;konojunya&quot;]" data-card-label="[&quot;enhancement&quot;]" data-card-repo="[&quot;chotchy-inc/patrashop-web&quot;]" data-card-state="[&quot;closed&quot;]" data-card-title="[&quot;新規登録エラーをmodalにする（2h）&quot;,&quot;761&quot;,&quot;#761&quot;]" data-card-type="[&quot;issue&quot;]" data-card-is="[&quot;closed&quot;,&quot;issue&quot;]">
+        <div class="archived-header d-none flex-row border-bottom p-2 text-small">
+           <div class="flex-auto d-flex flex-row min-width-0 position-relative">
+              <div class="d-flex flex-row">
+                 <svg class="octicon octicon-archive" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M13 2H1v2h12V2zM0 4a1 1 0 0 0 1 1v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H1a1 1 0 0 0-1 1v2zm2 1h10v9H2V5zm2 3h6V7H4v1z"></path>
+                 </svg>
+              </div>
+              <div class="d-flex flex-row flex-auto">
+                 <div class="pl-2 pr-3">
+                    From <span class="text-bold">Done</span>
+                 </div>
+              </div>
+              <div class="d-flex flex-row">
+                 <!-- '"` --><!-- </textarea></xmp> -->
+                 <form class="js-unarchive-project-card" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21938189/unarchive" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="put"><input type="hidden" name="authenticity_token" value="F2Y0IrZSeXsQ6Vu6wwdqonSy5xH/ljGJrTjhzqzG05NWilwa+iAGynGTAszKQ60AZfts6yF2oWP4slnEQD6vRA==">
+                    <button class="btn-link" type="submit">Restore</button>
+                    <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                 </form>
+              </div>
+           </div>
+        </div>
+        <div class="d-flex flex-row">
+           <div class="flex-auto min-width-0 position-relative">
+              <div class="pl-5 p-2 position-relative js-project-issue-details-container">
+                 <details class="details-reset details-overlay card-menu-container dropdown position-static">
+                    <summary class="text-gray-light link-hover-blue btn-octicon p-0 position-absolute right-0 top-0 mt-2 mr-3" aria-label="Card menu" aria-haspopup="menu">
+                       <svg class="octicon octicon-kebab-horizontal" viewBox="0 0 13 16" version="1.1" width="13" height="16" aria-hidden="true">
+                          <path fill-rule="evenodd" d="M1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM13 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"></path>
+                       </svg>
+                    </summary>
+                    <details-menu class="dropdown-menu dropdown-menu-sw top-0 mt-4 mr-1" role="menu">
+                       <clipboard-copy class="dropdown-item text-left btn-link" value="https://github.com/chotchy-inc/PATRASHOP-Web/projects/1#card-21938189" role="menuitem" tabindex="0">
+                          Copy card link
+                       </clipboard-copy>
+                       <hr class="p-0 mt-2 mb-2">
+                       <!-- '"` --><!-- </textarea></xmp> -->
+                       <form class="js-archive-project-card archive-dropdown-item" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21938189/archive" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="put"><input type="hidden" name="authenticity_token" value="8/GP16c1pNeY3Ua0LtxRrO5HS8RTrHtZINho3UH1iQ208zGi/DLwHoe/yUG9GlD0eCm/0skJVcie7Z0jVO1qgw==">
+                          <button class="dropdown-item text-left btn-link btn-block" type="submit" role="menuitem">Archive</button>
+                          <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                       </form>
+                       <!-- '"` --><!-- </textarea></xmp> -->
+                       <form class="js-remove-card-after-request d-inline" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21938189" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="delete"><input type="hidden" name="authenticity_token" value="ds+aVCNtcpbTWPCx7aAinZiCUKBCu+ERLiHCvcJElH1WVGx8VdyRGrbdRB17Fd9W1mgEtFy6IdWa3xchUwhW+Q==">
+                          <button type="submit" aria-label="Remove from project" class="dropdown-item btn-link btn-block text-left" data-confirm="This will remove this card from the project" role="menuitem">
+                          Remove from project
+                          </button>
+                          <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                       </form>
+                    </details-menu>
+                 </details>
+                 <span class="card-octicon position-absolute">
+                    <div class="text-green">
+                       <svg class="octicon octicon-issue-closed closed js-issue-octicon" aria-label="Closed Issue" viewBox="0 0 16 16" version="1.1" width="16" height="16" role="img">
+                          <path fill-rule="evenodd" d="M7 10h2v2H7v-2zm2-6H7v5h2V4zm1.5 1.5l-1 1L12 9l4-4.5-1-1L12 7l-1.5-1.5zM8 13.7A5.71 5.71 0 0 1 2.3 8c0-3.14 2.56-5.7 5.7-5.7 1.83 0 3.45.88 4.5 2.2l.92-.92A6.947 6.947 0 0 0 8 1C4.14 1 1 4.14 1 8s3.14 7 7 7 7-3.14 7-7l-1.52 1.52c-.66 2.41-2.86 4.19-5.48 4.19v-.01z"></path>
+                       </svg>
+                    </div>
+                 </span>
+                 <a class="h5 d-block lh-condensed mb-1 mr-5 js-project-card-issue-link" data-content-id="446966238" data-content-label="issue" data-content-repo-label="chotchy-inc/PATRASHOP-Web" data-content-repo-url="/chotchy-inc/PATRASHOP-Web" href="/chotchy-inc/PATRASHOP-Web/issues/761">新規登録エラーをmodalにする（2h）</a>
+                 <small class="text-gray d-block pr-6">
+                 <span class="js-issue-number">#761</span>
+                 opened by <a class="text-gray-dark" href="/konojunya">konojunya</a>
+                 </small>
+                 <span class="labels d-block pb-1 pr-6">
+                 <button type="button" class="btn-link css-truncate js-card-filter issue-card-label IssueLabel mt-1 v-align-middle css-truncate css-truncate-target" style="max-width: 150px; background-color: #a2eeef; color: #000000" data-card-filter="label:enhancement" title="機能追加">
+                 <span class="css-truncate-target">enhancement</span>
+                 </button>
+                 </span>
+                 <div class="AvatarStack AvatarStack--right  position-absolute bottom-0 right-0 mr-2 mb-2">
+                    <div class="AvatarStack-body tooltipped tooltipped-nw tooltipped-multiline tooltipped-align-right-1" aria-label="Assigned to konojunya">
+                       <button type="button" class="btn-link avatar js-card-filter" aria-label="Assignee konojunya" data-card-filter="assignee:konojunya">
+                       <img src="https://avatars2.githubusercontent.com/u/12035578?s=40&amp;v=4" width="20" height="20" alt="@konojunya">
+                       </button>
+                    </div>
+                 </div>
+              </div>
+              <span class="sr-only">Press enter to move this card</span>
+           </div>
+        </div>
+     </div>
+     <div class="issue-card project-card position-relative rounded-2 box-shadow bg-white my-2 mx-0 border ws-normal js-project-column-card js-socket-channel js-updatable-content draggable js-keyboard-movable" id="card-21938173" tabindex="0" data-retain-focus="" data-channel="projects:cards:21938173" data-url="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21938173" data-card-id="21938173" data-column-id="2731060" data-content-type="Issue" data-content-id="447451228" data-card-assignee="[&quot;konojunya&quot;]" data-card-author="[&quot;konojunya&quot;]" data-card-label="[&quot;enhancement&quot;]" data-card-repo="[&quot;chotchy-inc/patrashop-web&quot;]" data-card-state="[&quot;closed&quot;]" data-card-title="[&quot;comingsoonの詳細画面を変更する（1h）&quot;,&quot;764&quot;,&quot;#764&quot;]" data-card-type="[&quot;issue&quot;]" data-card-is="[&quot;closed&quot;,&quot;issue&quot;]">
+        <div class="archived-header d-none flex-row border-bottom p-2 text-small">
+           <div class="flex-auto d-flex flex-row min-width-0 position-relative">
+              <div class="d-flex flex-row">
+                 <svg class="octicon octicon-archive" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M13 2H1v2h12V2zM0 4a1 1 0 0 0 1 1v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H1a1 1 0 0 0-1 1v2zm2 1h10v9H2V5zm2 3h6V7H4v1z"></path>
+                 </svg>
+              </div>
+              <div class="d-flex flex-row flex-auto">
+                 <div class="pl-2 pr-3">
+                    From <span class="text-bold">Done</span>
+                 </div>
+              </div>
+              <div class="d-flex flex-row">
+                 <!-- '"` --><!-- </textarea></xmp> -->
+                 <form class="js-unarchive-project-card" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21938173/unarchive" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="put"><input type="hidden" name="authenticity_token" value="lWUg3aXEHTy5kXl22Iz+SRXVRuzQlKgHKvr4yjfZ06HDMRp2utsmT2gdm1fIa5rdCaCkkOMpCRt4GeCWsWQ+2g==">
+                    <button class="btn-link" type="submit">Restore</button>
+                    <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                 </form>
+              </div>
+           </div>
+        </div>
+        <div class="d-flex flex-row">
+           <div class="flex-auto min-width-0 position-relative">
+              <div class="pl-5 p-2 position-relative js-project-issue-details-container">
+                 <details class="details-reset details-overlay card-menu-container dropdown position-static">
+                    <summary class="text-gray-light link-hover-blue btn-octicon p-0 position-absolute right-0 top-0 mt-2 mr-3" aria-label="Card menu" aria-haspopup="menu">
+                       <svg class="octicon octicon-kebab-horizontal" viewBox="0 0 13 16" version="1.1" width="13" height="16" aria-hidden="true">
+                          <path fill-rule="evenodd" d="M1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM13 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"></path>
+                       </svg>
+                    </summary>
+                    <details-menu class="dropdown-menu dropdown-menu-sw top-0 mt-4 mr-1" role="menu">
+                       <clipboard-copy class="dropdown-item text-left btn-link" value="https://github.com/chotchy-inc/PATRASHOP-Web/projects/1#card-21938173" role="menuitem" tabindex="0">
+                          Copy card link
+                       </clipboard-copy>
+                       <hr class="p-0 mt-2 mb-2">
+                       <!-- '"` --><!-- </textarea></xmp> -->
+                       <form class="js-archive-project-card archive-dropdown-item" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21938173/archive" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="put"><input type="hidden" name="authenticity_token" value="yhkKc617+CiKCCIa73H+b5ldyGjXHjvNRGDGVs5CiCP0bYUT/3gPNbeuPABc7sk+IbJUe86yu60YHRhk4++QMA==">
+                          <button class="dropdown-item text-left btn-link btn-block" type="submit" role="menuitem">Archive</button>
+                          <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                       </form>
+                       <!-- '"` --><!-- </textarea></xmp> -->
+                       <form class="js-remove-card-after-request d-inline" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21938173" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="delete"><input type="hidden" name="authenticity_token" value="YNKwwIUnR/LdtuHson4ViRAu1VrtbZvpwIx84Jxwi0t2T83JA2gX1kQRQjUh4j4TmV01lG3Sn/BEbHZeZtq5tw==">
+                          <button type="submit" aria-label="Remove from project" class="dropdown-item btn-link btn-block text-left" data-confirm="This will remove this card from the project" role="menuitem">
+                          Remove from project
+                          </button>
+                          <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                       </form>
+                    </details-menu>
+                 </details>
+                 <span class="card-octicon position-absolute">
+                    <div class="text-green">
+                       <svg class="octicon octicon-issue-closed closed js-issue-octicon" aria-label="Closed Issue" viewBox="0 0 16 16" version="1.1" width="16" height="16" role="img">
+                          <path fill-rule="evenodd" d="M7 10h2v2H7v-2zm2-6H7v5h2V4zm1.5 1.5l-1 1L12 9l4-4.5-1-1L12 7l-1.5-1.5zM8 13.7A5.71 5.71 0 0 1 2.3 8c0-3.14 2.56-5.7 5.7-5.7 1.83 0 3.45.88 4.5 2.2l.92-.92A6.947 6.947 0 0 0 8 1C4.14 1 1 4.14 1 8s3.14 7 7 7 7-3.14 7-7l-1.52 1.52c-.66 2.41-2.86 4.19-5.48 4.19v-.01z"></path>
+                       </svg>
+                    </div>
+                 </span>
+                 <a class="h5 d-block lh-condensed mb-1 mr-5 js-project-card-issue-link" data-content-id="447451228" data-content-label="issue" data-content-repo-label="chotchy-inc/PATRASHOP-Web" data-content-repo-url="/chotchy-inc/PATRASHOP-Web" href="/chotchy-inc/PATRASHOP-Web/issues/764">comingsoonの詳細画面を変更する（1h）</a>
+                 <div class="my-1 v-align-middle">
+                    <span class="issue-meta-section task-progress ">
+                       <svg class="octicon octicon-checklist" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
+                          <path fill-rule="evenodd" d="M16 8.5l-6 6-3-3L8.5 10l1.5 1.5L14.5 7 16 8.5zM5.7 12.2l.8.8H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h7c.55 0 1 .45 1 1v6.5l-.8-.8c-.39-.39-1.03-.39-1.42 0L5.7 10.8a.996.996 0 0 0 0 1.41v-.01zM4 4h5V3H4v1zm0 2h5V5H4v1zm0 2h3V7H4v1zM3 9H2v1h1V9zm0-2H2v1h1V7zm0-2H2v1h1V5zm0-2H2v1h1V3z"></path>
+                       </svg>
+                       <span class="task-progress-counts">3 of 3</span><span class="progress-bar v-align-middle"><span class="progress" style="width: 100%"></span></span>
+                    </span>
+                 </div>
+                 <small class="text-gray d-block pr-6">
+                 <span class="js-issue-number">#764</span>
+                 opened by <a class="text-gray-dark" href="/konojunya">konojunya</a>
+                 </small>
+                 <span class="labels d-block pb-1 pr-6">
+                 <button type="button" class="btn-link css-truncate js-card-filter issue-card-label IssueLabel mt-1 v-align-middle css-truncate css-truncate-target" style="max-width: 150px; background-color: #a2eeef; color: #000000" data-card-filter="label:enhancement" title="機能追加">
+                 <span class="css-truncate-target">enhancement</span>
+                 </button>
+                 </span>
+                 <div class="AvatarStack AvatarStack--right  position-absolute bottom-0 right-0 mr-2 mb-2">
+                    <div class="AvatarStack-body tooltipped tooltipped-nw tooltipped-multiline tooltipped-align-right-1" aria-label="Assigned to konojunya">
+                       <button type="button" class="btn-link avatar js-card-filter" aria-label="Assignee konojunya" data-card-filter="assignee:konojunya">
+                       <img src="https://avatars2.githubusercontent.com/u/12035578?s=40&amp;v=4" width="20" height="20" alt="@konojunya">
+                       </button>
+                    </div>
+                 </div>
+              </div>
+              <span class="sr-only">Press enter to move this card</span>
+           </div>
+        </div>
+     </div>
+     <div class="issue-card project-card position-relative rounded-2 box-shadow bg-white my-2 mx-0 border ws-normal js-project-column-card js-socket-channel js-updatable-content draggable js-keyboard-movable" id="card-21885171" tabindex="0" data-retain-focus="" data-channel="projects:cards:21885171" data-url="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21885171" data-card-id="21885171" data-column-id="2731060" data-content-type="Issue" data-content-id="447471722" data-card-assignee="[&quot;konojunya&quot;]" data-card-author="[&quot;konojunya&quot;]" data-card-label="[&quot;enhancement&quot;]" data-card-repo="[&quot;chotchy-inc/patrashop-web&quot;]" data-card-state="[&quot;closed&quot;]" data-card-title="[&quot;認証情報をcookieつかってるところを消す（2h）&quot;,&quot;766&quot;,&quot;#766&quot;]" data-card-type="[&quot;issue&quot;]" data-card-is="[&quot;closed&quot;,&quot;issue&quot;]">
+        <div class="archived-header d-none flex-row border-bottom p-2 text-small">
+           <div class="flex-auto d-flex flex-row min-width-0 position-relative">
+              <div class="d-flex flex-row">
+                 <svg class="octicon octicon-archive" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M13 2H1v2h12V2zM0 4a1 1 0 0 0 1 1v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H1a1 1 0 0 0-1 1v2zm2 1h10v9H2V5zm2 3h6V7H4v1z"></path>
+                 </svg>
+              </div>
+              <div class="d-flex flex-row flex-auto">
+                 <div class="pl-2 pr-3">
+                    From <span class="text-bold">Done</span>
+                 </div>
+              </div>
+              <div class="d-flex flex-row">
+                 <!-- '"` --><!-- </textarea></xmp> -->
+                 <form class="js-unarchive-project-card" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21885171/unarchive" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="put"><input type="hidden" name="authenticity_token" value="RXHK8N0xaN2lCVgNGf2DAMj2zqd3bchIRdv2HVSGLOUpFly3C6JBLnUNvgiK9Cqzj2rU9Bi/Df58DtWKW84IjA==">
+                    <button class="btn-link" type="submit">Restore</button>
+                    <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                 </form>
+              </div>
+           </div>
+        </div>
+        <div class="d-flex flex-row">
+           <div class="flex-auto min-width-0 position-relative">
+              <div class="pl-5 p-2 position-relative js-project-issue-details-container">
+                 <details class="details-reset details-overlay card-menu-container dropdown position-static">
+                    <summary class="text-gray-light link-hover-blue btn-octicon p-0 position-absolute right-0 top-0 mt-2 mr-3" aria-label="Card menu" aria-haspopup="menu">
+                       <svg class="octicon octicon-kebab-horizontal" viewBox="0 0 13 16" version="1.1" width="13" height="16" aria-hidden="true">
+                          <path fill-rule="evenodd" d="M1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM13 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"></path>
+                       </svg>
+                    </summary>
+                    <details-menu class="dropdown-menu dropdown-menu-sw top-0 mt-4 mr-1" role="menu">
+                       <clipboard-copy class="dropdown-item text-left btn-link" value="https://github.com/chotchy-inc/PATRASHOP-Web/projects/1#card-21885171" role="menuitem" tabindex="0">
+                          Copy card link
+                       </clipboard-copy>
+                       <hr class="p-0 mt-2 mb-2">
+                       <!-- '"` --><!-- </textarea></xmp> -->
+                       <form class="js-archive-project-card archive-dropdown-item" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21885171/archive" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="put"><input type="hidden" name="authenticity_token" value="pHmDN8CrMO+DVZmrMvSJTF35V3aLB9sy1d1RecgTQf3zIYodgMMZwYg71Bq+miWN/8bp9jInQgXr+UYomfEZ9Q==">
+                          <button class="dropdown-item text-left btn-link btn-block" type="submit" role="menuitem">Archive</button>
+                          <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                       </form>
+                       <!-- '"` --><!-- </textarea></xmp> -->
+                       <form class="js-remove-card-after-request d-inline" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21885171" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="delete"><input type="hidden" name="authenticity_token" value="ApZQ52OKzs2y4Bpa4WhXvN612IZmzcrmYEetC4oR4BMorI5g/EYRU50a91yKlKFbkFf85LkpovMj71W+AEfoAQ==">
+                          <button type="submit" aria-label="Remove from project" class="dropdown-item btn-link btn-block text-left" data-confirm="This will remove this card from the project" role="menuitem">
+                          Remove from project
+                          </button>
+                          <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                       </form>
+                    </details-menu>
+                 </details>
+                 <span class="card-octicon position-absolute">
+                    <div class="text-green">
+                       <svg class="octicon octicon-issue-closed closed js-issue-octicon" aria-label="Closed Issue" viewBox="0 0 16 16" version="1.1" width="16" height="16" role="img">
+                          <path fill-rule="evenodd" d="M7 10h2v2H7v-2zm2-6H7v5h2V4zm1.5 1.5l-1 1L12 9l4-4.5-1-1L12 7l-1.5-1.5zM8 13.7A5.71 5.71 0 0 1 2.3 8c0-3.14 2.56-5.7 5.7-5.7 1.83 0 3.45.88 4.5 2.2l.92-.92A6.947 6.947 0 0 0 8 1C4.14 1 1 4.14 1 8s3.14 7 7 7 7-3.14 7-7l-1.52 1.52c-.66 2.41-2.86 4.19-5.48 4.19v-.01z"></path>
+                       </svg>
+                    </div>
+                 </span>
+                 <a class="h5 d-block lh-condensed mb-1 mr-5 js-project-card-issue-link" data-content-id="447471722" data-content-label="issue" data-content-repo-label="chotchy-inc/PATRASHOP-Web" data-content-repo-url="/chotchy-inc/PATRASHOP-Web" href="/chotchy-inc/PATRASHOP-Web/issues/766">認証情報をcookieつかってるところを消す（2h）</a>
+                 <small class="text-gray d-block pr-6">
+                 <span class="js-issue-number">#766</span>
+                 opened by <a class="text-gray-dark" href="/konojunya">konojunya</a>
+                 </small>
+                 <span class="labels d-block pb-1 pr-6">
+                 <button type="button" class="btn-link css-truncate js-card-filter issue-card-label IssueLabel mt-1 v-align-middle css-truncate css-truncate-target" style="max-width: 150px; background-color: #a2eeef; color: #000000" data-card-filter="label:enhancement" title="機能追加">
+                 <span class="css-truncate-target">enhancement</span>
+                 </button>
+                 </span>
+                 <div class="AvatarStack AvatarStack--right  position-absolute bottom-0 right-0 mr-2 mb-2">
+                    <div class="AvatarStack-body tooltipped tooltipped-nw tooltipped-multiline tooltipped-align-right-1" aria-label="Assigned to konojunya">
+                       <button type="button" class="btn-link avatar js-card-filter" aria-label="Assignee konojunya" data-card-filter="assignee:konojunya">
+                       <img src="https://avatars2.githubusercontent.com/u/12035578?s=40&amp;v=4" width="20" height="20" alt="@konojunya">
+                       </button>
+                    </div>
+                 </div>
+              </div>
+              <span class="sr-only">Press enter to move this card</span>
+           </div>
+        </div>
+     </div>
+     <div class="issue-card project-card position-relative rounded-2 box-shadow bg-white my-2 mx-0 border ws-normal js-project-column-card js-socket-channel js-updatable-content draggable js-keyboard-movable" id="card-21883217" tabindex="0" data-retain-focus="" data-channel="projects:cards:21883217" data-url="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21883217" data-card-id="21883217" data-column-id="2731060" data-content-type="Issue" data-content-id="447455014" data-card-assignee="[&quot;konojunya&quot;]" data-card-author="[&quot;konojunya&quot;]" data-card-label="[&quot;enhancement&quot;]" data-card-repo="[&quot;chotchy-inc/patrashop-web&quot;]" data-card-state="[&quot;closed&quot;]" data-card-title="[&quot;chrome-1xx.pngみたいなmanifestで読んでるの直す（1h）&quot;,&quot;765&quot;,&quot;#765&quot;]" data-card-type="[&quot;issue&quot;]" data-card-is="[&quot;closed&quot;,&quot;issue&quot;]">
+        <div class="archived-header d-none flex-row border-bottom p-2 text-small">
+           <div class="flex-auto d-flex flex-row min-width-0 position-relative">
+              <div class="d-flex flex-row">
+                 <svg class="octicon octicon-archive" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M13 2H1v2h12V2zM0 4a1 1 0 0 0 1 1v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H1a1 1 0 0 0-1 1v2zm2 1h10v9H2V5zm2 3h6V7H4v1z"></path>
+                 </svg>
+              </div>
+              <div class="d-flex flex-row flex-auto">
+                 <div class="pl-2 pr-3">
+                    From <span class="text-bold">Done</span>
+                 </div>
+              </div>
+              <div class="d-flex flex-row">
+                 <!-- '"` --><!-- </textarea></xmp> -->
+                 <form class="js-unarchive-project-card" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21883217/unarchive" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="put"><input type="hidden" name="authenticity_token" value="am7TWOiJr1tq65J7sNGKnxrSj2DDGwzoLOm+cUi2WPgeHM2yoPVRHWLvLTeH5cBiNd27qqx6rf92EwYNfs+vqQ==">
+                    <button class="btn-link" type="submit">Restore</button>
+                    <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                 </form>
+              </div>
+           </div>
+        </div>
+        <div class="d-flex flex-row">
+           <div class="flex-auto min-width-0 position-relative">
+              <div class="pl-5 p-2 position-relative js-project-issue-details-container">
+                 <details class="details-reset details-overlay card-menu-container dropdown position-static">
+                    <summary class="text-gray-light link-hover-blue btn-octicon p-0 position-absolute right-0 top-0 mt-2 mr-3" aria-label="Card menu" aria-haspopup="menu">
+                       <svg class="octicon octicon-kebab-horizontal" viewBox="0 0 13 16" version="1.1" width="13" height="16" aria-hidden="true">
+                          <path fill-rule="evenodd" d="M1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM13 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"></path>
+                       </svg>
+                    </summary>
+                    <details-menu class="dropdown-menu dropdown-menu-sw top-0 mt-4 mr-1" role="menu">
+                       <clipboard-copy class="dropdown-item text-left btn-link" value="https://github.com/chotchy-inc/PATRASHOP-Web/projects/1#card-21883217" role="menuitem" tabindex="0">
+                          Copy card link
+                       </clipboard-copy>
+                       <hr class="p-0 mt-2 mb-2">
+                       <!-- '"` --><!-- </textarea></xmp> -->
+                       <form class="js-archive-project-card archive-dropdown-item" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21883217/archive" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="put"><input type="hidden" name="authenticity_token" value="c23e5Tbo2fhGvzD8PN2lut37046OW8Aq7bFyjV1DejTHzyujn7XFabl5Mk6ixIQL1MiJIDZ1+ffE/Zio+0ER7A==">
+                          <button class="dropdown-item text-left btn-link btn-block" type="submit" role="menuitem">Archive</button>
+                          <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                       </form>
+                       <!-- '"` --><!-- </textarea></xmp> -->
+                       <form class="js-remove-card-after-request d-inline" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21883217" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="delete"><input type="hidden" name="authenticity_token" value="NR76Wg9CCiTduSuoNgIEgC0izxfOQ+cWeD2AmSLQoPIGDfRMaJao//6ysDBMoTw0YG23/0uDARxOBoXYyOFiCw==">
+                          <button type="submit" aria-label="Remove from project" class="dropdown-item btn-link btn-block text-left" data-confirm="This will remove this card from the project" role="menuitem">
+                          Remove from project
+                          </button>
+                          <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                       </form>
+                    </details-menu>
+                 </details>
+                 <span class="card-octicon position-absolute">
+                    <div class="text-green">
+                       <svg class="octicon octicon-issue-closed closed js-issue-octicon" aria-label="Closed Issue" viewBox="0 0 16 16" version="1.1" width="16" height="16" role="img">
+                          <path fill-rule="evenodd" d="M7 10h2v2H7v-2zm2-6H7v5h2V4zm1.5 1.5l-1 1L12 9l4-4.5-1-1L12 7l-1.5-1.5zM8 13.7A5.71 5.71 0 0 1 2.3 8c0-3.14 2.56-5.7 5.7-5.7 1.83 0 3.45.88 4.5 2.2l.92-.92A6.947 6.947 0 0 0 8 1C4.14 1 1 4.14 1 8s3.14 7 7 7 7-3.14 7-7l-1.52 1.52c-.66 2.41-2.86 4.19-5.48 4.19v-.01z"></path>
+                       </svg>
+                    </div>
+                 </span>
+                 <a class="h5 d-block lh-condensed mb-1 mr-5 js-project-card-issue-link" data-content-id="447455014" data-content-label="issue" data-content-repo-label="chotchy-inc/PATRASHOP-Web" data-content-repo-url="/chotchy-inc/PATRASHOP-Web" href="/chotchy-inc/PATRASHOP-Web/issues/765">chrome-1xx.pngみたいなmanifestで読んでるの直す（1h）</a>
+                 <small class="text-gray d-block pr-6">
+                 <span class="js-issue-number">#765</span>
+                 opened by <a class="text-gray-dark" href="/konojunya">konojunya</a>
+                 </small>
+                 <span class="labels d-block pb-1 pr-6">
+                 <button type="button" class="btn-link css-truncate js-card-filter issue-card-label IssueLabel mt-1 v-align-middle css-truncate css-truncate-target" style="max-width: 150px; background-color: #a2eeef; color: #000000" data-card-filter="label:enhancement" title="機能追加">
+                 <span class="css-truncate-target">enhancement</span>
+                 </button>
+                 </span>
+                 <div class="AvatarStack AvatarStack--right  position-absolute bottom-0 right-0 mr-2 mb-2">
+                    <div class="AvatarStack-body tooltipped tooltipped-nw tooltipped-multiline tooltipped-align-right-1" aria-label="Assigned to konojunya">
+                       <button type="button" class="btn-link avatar js-card-filter" aria-label="Assignee konojunya" data-card-filter="assignee:konojunya">
+                       <img src="https://avatars2.githubusercontent.com/u/12035578?s=40&amp;v=4" width="20" height="20" alt="@konojunya">
+                       </button>
+                    </div>
+                 </div>
+              </div>
+              <span class="sr-only">Press enter to move this card</span>
+           </div>
+        </div>
+     </div>
+     <div class="issue-card project-card position-relative rounded-2 box-shadow bg-white my-2 mx-0 border ws-normal js-project-column-card js-socket-channel js-updatable-content draggable js-keyboard-movable" id="card-21604410" tabindex="0" data-retain-focus="" data-channel="projects:cards:21604410" data-url="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21604410" data-card-id="21604410" data-column-id="2731060" data-content-type="Issue" data-content-id="444852362" data-card-assignee="[&quot;konojunya&quot;]" data-card-author="[&quot;konojunya&quot;]" data-card-label="[&quot;enhancement&quot;]" data-card-repo="[&quot;chotchy-inc/patrashop-web&quot;]" data-card-state="[&quot;closed&quot;]" data-card-title="[&quot;redialを消し去る（15h）&quot;,&quot;756&quot;,&quot;#756&quot;]" data-card-type="[&quot;issue&quot;]" data-card-is="[&quot;closed&quot;,&quot;issue&quot;]">
+        <div class="archived-header d-none flex-row border-bottom p-2 text-small">
+           <div class="flex-auto d-flex flex-row min-width-0 position-relative">
+              <div class="d-flex flex-row">
+                 <svg class="octicon octicon-archive" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M13 2H1v2h12V2zM0 4a1 1 0 0 0 1 1v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H1a1 1 0 0 0-1 1v2zm2 1h10v9H2V5zm2 3h6V7H4v1z"></path>
+                 </svg>
+              </div>
+              <div class="d-flex flex-row flex-auto">
+                 <div class="pl-2 pr-3">
+                    From <span class="text-bold">Done</span>
+                 </div>
+              </div>
+              <div class="d-flex flex-row">
+                 <!-- '"` --><!-- </textarea></xmp> -->
+                 <form class="js-unarchive-project-card" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21604410/unarchive" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="put"><input type="hidden" name="authenticity_token" value="2G1uQ3Pkoi806VQeLNQeHhxzbPi2aIqSWYNaKaL/Kbt43aBI/l7quZMCv8hq6V1IDlrfg1+fKE0mC+siZtSvXw==">
+                    <button class="btn-link" type="submit">Restore</button>
+                    <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                 </form>
+              </div>
+           </div>
+        </div>
+        <div class="d-flex flex-row">
+           <div class="flex-auto min-width-0 position-relative">
+              <div class="pl-5 p-2 position-relative js-project-issue-details-container">
+                 <details class="details-reset details-overlay card-menu-container dropdown position-static">
+                    <summary class="text-gray-light link-hover-blue btn-octicon p-0 position-absolute right-0 top-0 mt-2 mr-3" aria-label="Card menu" aria-haspopup="menu">
+                       <svg class="octicon octicon-kebab-horizontal" viewBox="0 0 13 16" version="1.1" width="13" height="16" aria-hidden="true">
+                          <path fill-rule="evenodd" d="M1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM13 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"></path>
+                       </svg>
+                    </summary>
+                    <details-menu class="dropdown-menu dropdown-menu-sw top-0 mt-4 mr-1" role="menu">
+                       <clipboard-copy class="dropdown-item text-left btn-link" value="https://github.com/chotchy-inc/PATRASHOP-Web/projects/1#card-21604410" role="menuitem" tabindex="0">
+                          Copy card link
+                       </clipboard-copy>
+                       <hr class="p-0 mt-2 mb-2">
+                       <!-- '"` --><!-- </textarea></xmp> -->
+                       <form class="js-archive-project-card archive-dropdown-item" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21604410/archive" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="put"><input type="hidden" name="authenticity_token" value="DzIlowZV2bI0rx5BKk4UgTGGHFzL3A0heg5aA2Bk2abyV/fbYnW/5YzAWZXpWNcHUgiQeKv7P0b2RPYgYAs7Lg==">
+                          <button class="dropdown-item text-left btn-link btn-block" type="submit" role="menuitem">Archive</button>
+                          <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                       </form>
+                       <!-- '"` --><!-- </textarea></xmp> -->
+                       <form class="js-remove-card-after-request d-inline" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21604410" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="delete"><input type="hidden" name="authenticity_token" value="+/3/uOQJj3o4pI+oqm8ySSCRzxwGcN5vkUVq3vdTXVT3+Jj9AIRc+vudWSUtjEgNsCsZquEtj8FUT6OlxchoVw==">
+                          <button type="submit" aria-label="Remove from project" class="dropdown-item btn-link btn-block text-left" data-confirm="This will remove this card from the project" role="menuitem">
+                          Remove from project
+                          </button>
+                          <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                       </form>
+                    </details-menu>
+                 </details>
+                 <span class="card-octicon position-absolute">
+                    <div class="text-green">
+                       <svg class="octicon octicon-issue-closed closed js-issue-octicon" aria-label="Closed Issue" viewBox="0 0 16 16" version="1.1" width="16" height="16" role="img">
+                          <path fill-rule="evenodd" d="M7 10h2v2H7v-2zm2-6H7v5h2V4zm1.5 1.5l-1 1L12 9l4-4.5-1-1L12 7l-1.5-1.5zM8 13.7A5.71 5.71 0 0 1 2.3 8c0-3.14 2.56-5.7 5.7-5.7 1.83 0 3.45.88 4.5 2.2l.92-.92A6.947 6.947 0 0 0 8 1C4.14 1 1 4.14 1 8s3.14 7 7 7 7-3.14 7-7l-1.52 1.52c-.66 2.41-2.86 4.19-5.48 4.19v-.01z"></path>
+                       </svg>
+                    </div>
+                 </span>
+                 <a class="h5 d-block lh-condensed mb-1 mr-5 js-project-card-issue-link" data-content-id="444852362" data-content-label="issue" data-content-repo-label="chotchy-inc/PATRASHOP-Web" data-content-repo-url="/chotchy-inc/PATRASHOP-Web" href="/chotchy-inc/PATRASHOP-Web/issues/756">redialを消し去る（15h）</a>
+                 <small class="text-gray d-block pr-6">
+                 <span class="js-issue-number">#756</span>
+                 opened by <a class="text-gray-dark" href="/konojunya">konojunya</a>
+                 </small>
+                 <span class="labels d-block pb-1 pr-6">
+                 <button type="button" class="btn-link css-truncate js-card-filter issue-card-label IssueLabel mt-1 v-align-middle css-truncate css-truncate-target" style="max-width: 150px; background-color: #a2eeef; color: #000000" data-card-filter="label:enhancement" title="機能追加">
+                 <span class="css-truncate-target">enhancement</span>
+                 </button>
+                 </span>
+                 <div class="AvatarStack AvatarStack--right  position-absolute bottom-0 right-0 mr-2 mb-2">
+                    <div class="AvatarStack-body tooltipped tooltipped-nw tooltipped-multiline tooltipped-align-right-1" aria-label="Assigned to konojunya">
+                       <button type="button" class="btn-link avatar js-card-filter" aria-label="Assignee konojunya" data-card-filter="assignee:konojunya">
+                       <img src="https://avatars2.githubusercontent.com/u/12035578?s=40&amp;v=4" width="20" height="20" alt="@konojunya">
+                       </button>
+                    </div>
+                 </div>
+              </div>
+              <span class="sr-only">Press enter to move this card</span>
+           </div>
+        </div>
+     </div>
+     <div class="issue-card project-card position-relative rounded-2 box-shadow bg-white my-2 mx-0 border ws-normal js-project-column-card js-socket-channel js-updatable-content draggable js-keyboard-movable" id="card-21883246" tabindex="0" data-retain-focus="" data-channel="projects:cards:21883246" data-url="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21883246" data-card-id="21883246" data-column-id="2731060" data-content-type="Issue" data-content-id="446981411" data-card-assignee="[&quot;konojunya&quot;]" data-card-author="[&quot;konojunya&quot;]" data-card-label="[&quot;enhancement&quot;]" data-card-repo="[&quot;chotchy-inc/patrashop-web&quot;]" data-card-state="[&quot;closed&quot;]" data-card-title="[&quot;auth情報は全てstateを使う（3h）&quot;,&quot;762&quot;,&quot;#762&quot;]" data-card-type="[&quot;issue&quot;]" data-card-is="[&quot;closed&quot;,&quot;issue&quot;]">
+        <div class="archived-header d-none flex-row border-bottom p-2 text-small">
+           <div class="flex-auto d-flex flex-row min-width-0 position-relative">
+              <div class="d-flex flex-row">
+                 <svg class="octicon octicon-archive" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M13 2H1v2h12V2zM0 4a1 1 0 0 0 1 1v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H1a1 1 0 0 0-1 1v2zm2 1h10v9H2V5zm2 3h6V7H4v1z"></path>
+                 </svg>
+              </div>
+              <div class="d-flex flex-row flex-auto">
+                 <div class="pl-2 pr-3">
+                    From <span class="text-bold">Done</span>
+                 </div>
+              </div>
+              <div class="d-flex flex-row">
+                 <!-- '"` --><!-- </textarea></xmp> -->
+                 <form class="js-unarchive-project-card" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21883246/unarchive" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="put"><input type="hidden" name="authenticity_token" value="P3NIf+umNuZ1NuQq6fdp1okSh5uMVIGZn98iIqtXZ6HnIvIBhB71X3JQcxhqVMUZpi6IwpBHrgAURsQy/hk8Kw==">
+                    <button class="btn-link" type="submit">Restore</button>
+                    <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                 </form>
+              </div>
+           </div>
+        </div>
+        <div class="d-flex flex-row">
+           <div class="flex-auto min-width-0 position-relative">
+              <div class="pl-5 p-2 position-relative js-project-issue-details-container">
+                 <details class="details-reset details-overlay card-menu-container dropdown position-static">
+                    <summary class="text-gray-light link-hover-blue btn-octicon p-0 position-absolute right-0 top-0 mt-2 mr-3" aria-label="Card menu" aria-haspopup="menu">
+                       <svg class="octicon octicon-kebab-horizontal" viewBox="0 0 13 16" version="1.1" width="13" height="16" aria-hidden="true">
+                          <path fill-rule="evenodd" d="M1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM13 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"></path>
+                       </svg>
+                    </summary>
+                    <details-menu class="dropdown-menu dropdown-menu-sw top-0 mt-4 mr-1" role="menu">
+                       <clipboard-copy class="dropdown-item text-left btn-link" value="https://github.com/chotchy-inc/PATRASHOP-Web/projects/1#card-21883246" role="menuitem" tabindex="0">
+                          Copy card link
+                       </clipboard-copy>
+                       <hr class="p-0 mt-2 mb-2">
+                       <!-- '"` --><!-- </textarea></xmp> -->
+                       <form class="js-archive-project-card archive-dropdown-item" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21883246/archive" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="put"><input type="hidden" name="authenticity_token" value="TeeTh+XbI48LhGTfCdLoiR6EpA7XUj4PP7XGs091O2MX0g53vMaXgOUzPt906nNsuR9mOnqDLE5bUpg9i269Gg==">
+                          <button class="dropdown-item text-left btn-link btn-block" type="submit" role="menuitem">Archive</button>
+                          <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                       </form>
+                       <!-- '"` --><!-- </textarea></xmp> -->
+                       <form class="js-remove-card-after-request d-inline" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21883246" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="delete"><input type="hidden" name="authenticity_token" value="oZQ9LOwPwtVSJv4+OZpmlwmhYmEVNBWORCwMKbFh2BIcgktHESriQ3SxD0R0lFSFIjJ0F3yxdYJIkf1OM0Y24g==">
+                          <button type="submit" aria-label="Remove from project" class="dropdown-item btn-link btn-block text-left" data-confirm="This will remove this card from the project" role="menuitem">
+                          Remove from project
+                          </button>
+                          <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                       </form>
+                    </details-menu>
+                 </details>
+                 <span class="card-octicon position-absolute">
+                    <div class="text-green">
+                       <svg class="octicon octicon-issue-closed closed js-issue-octicon" aria-label="Closed Issue" viewBox="0 0 16 16" version="1.1" width="16" height="16" role="img">
+                          <path fill-rule="evenodd" d="M7 10h2v2H7v-2zm2-6H7v5h2V4zm1.5 1.5l-1 1L12 9l4-4.5-1-1L12 7l-1.5-1.5zM8 13.7A5.71 5.71 0 0 1 2.3 8c0-3.14 2.56-5.7 5.7-5.7 1.83 0 3.45.88 4.5 2.2l.92-.92A6.947 6.947 0 0 0 8 1C4.14 1 1 4.14 1 8s3.14 7 7 7 7-3.14 7-7l-1.52 1.52c-.66 2.41-2.86 4.19-5.48 4.19v-.01z"></path>
+                       </svg>
+                    </div>
+                 </span>
+                 <a class="h5 d-block lh-condensed mb-1 mr-5 js-project-card-issue-link" data-content-id="446981411" data-content-label="issue" data-content-repo-label="chotchy-inc/PATRASHOP-Web" data-content-repo-url="/chotchy-inc/PATRASHOP-Web" href="/chotchy-inc/PATRASHOP-Web/issues/762">auth情報は全てstateを使う（3h）</a>
+                 <small class="text-gray d-block pr-6">
+                 <span class="js-issue-number">#762</span>
+                 opened by <a class="text-gray-dark" href="/konojunya">konojunya</a>
+                 </small>
+                 <span class="labels d-block pb-1 pr-6">
+                 <button type="button" class="btn-link css-truncate js-card-filter issue-card-label IssueLabel mt-1 v-align-middle css-truncate css-truncate-target" style="max-width: 150px; background-color: #a2eeef; color: #000000" data-card-filter="label:enhancement" title="機能追加">
+                 <span class="css-truncate-target">enhancement</span>
+                 </button>
+                 </span>
+                 <div class="AvatarStack AvatarStack--right  position-absolute bottom-0 right-0 mr-2 mb-2">
+                    <div class="AvatarStack-body tooltipped tooltipped-nw tooltipped-multiline tooltipped-align-right-1" aria-label="Assigned to konojunya">
+                       <button type="button" class="btn-link avatar js-card-filter" aria-label="Assignee konojunya" data-card-filter="assignee:konojunya">
+                       <img src="https://avatars2.githubusercontent.com/u/12035578?s=40&amp;v=4" width="20" height="20" alt="@konojunya">
+                       </button>
+                    </div>
+                 </div>
+              </div>
+              <span class="sr-only">Press enter to move this card</span>
+           </div>
+        </div>
+     </div>
+     <div class="issue-card project-card position-relative rounded-2 box-shadow bg-white my-2 mx-0 border ws-normal js-project-column-card js-socket-channel js-updatable-content draggable js-keyboard-movable" id="card-21883249" tabindex="0" data-retain-focus="" data-channel="projects:cards:21883249" data-url="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21883249" data-card-id="21883249" data-column-id="2731060" data-content-type="Issue" data-content-id="446941706" data-card-assignee="[&quot;konojunya&quot;]" data-card-author="[&quot;konojunya&quot;]" data-card-label="[&quot;enhancement&quot;]" data-card-repo="[&quot;chotchy-inc/patrashop-web&quot;]" data-card-state="[&quot;closed&quot;]" data-card-title="[&quot;/meをredirectしないようにしたい（5h）&quot;,&quot;760&quot;,&quot;#760&quot;]" data-card-type="[&quot;issue&quot;]" data-card-is="[&quot;closed&quot;,&quot;issue&quot;]">
+        <div class="archived-header d-none flex-row border-bottom p-2 text-small">
+           <div class="flex-auto d-flex flex-row min-width-0 position-relative">
+              <div class="d-flex flex-row">
+                 <svg class="octicon octicon-archive" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M13 2H1v2h12V2zM0 4a1 1 0 0 0 1 1v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H1a1 1 0 0 0-1 1v2zm2 1h10v9H2V5zm2 3h6V7H4v1z"></path>
+                 </svg>
+              </div>
+              <div class="d-flex flex-row flex-auto">
+                 <div class="pl-2 pr-3">
+                    From <span class="text-bold">Done</span>
+                 </div>
+              </div>
+              <div class="d-flex flex-row">
+                 <!-- '"` --><!-- </textarea></xmp> -->
+                 <form class="js-unarchive-project-card" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21883249/unarchive" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="put"><input type="hidden" name="authenticity_token" value="iBUY5dRlqLpAzkPOXzy6Yh1l2ycZeYMIhlQ34quK07Hz4O+I06dLyx6btGvuQ1WJzyL8ikKn+LrLpyJ/vr5ggQ==">
+                    <button class="btn-link" type="submit">Restore</button>
+                    <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                 </form>
+              </div>
+           </div>
+        </div>
+        <div class="d-flex flex-row">
+           <div class="flex-auto min-width-0 position-relative">
+              <div class="pl-5 p-2 position-relative js-project-issue-details-container">
+                 <details class="details-reset details-overlay card-menu-container dropdown position-static">
+                    <summary class="text-gray-light link-hover-blue btn-octicon p-0 position-absolute right-0 top-0 mt-2 mr-3" aria-label="Card menu" aria-haspopup="menu">
+                       <svg class="octicon octicon-kebab-horizontal" viewBox="0 0 13 16" version="1.1" width="13" height="16" aria-hidden="true">
+                          <path fill-rule="evenodd" d="M1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM13 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"></path>
+                       </svg>
+                    </summary>
+                    <details-menu class="dropdown-menu dropdown-menu-sw top-0 mt-4 mr-1" role="menu">
+                       <clipboard-copy class="dropdown-item text-left btn-link" value="https://github.com/chotchy-inc/PATRASHOP-Web/projects/1#card-21883249" role="menuitem" tabindex="0">
+                          Copy card link
+                       </clipboard-copy>
+                       <hr class="p-0 mt-2 mb-2">
+                       <!-- '"` --><!-- </textarea></xmp> -->
+                       <form class="js-archive-project-card archive-dropdown-item" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21883249/archive" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="put"><input type="hidden" name="authenticity_token" value="xe8PrEbYRNm4g6MuNFU6wAiummhCxpDr7JOy1g2EOKupsPT8jUpL6HeJuQAXrSDqlSZ0C0zKxz6qc+4ewRsTxg==">
+                          <button class="dropdown-item text-left btn-link btn-block" type="submit" role="menuitem">Archive</button>
+                          <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                       </form>
+                       <!-- '"` --><!-- </textarea></xmp> -->
+                       <form class="js-remove-card-after-request d-inline" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21883249" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="delete"><input type="hidden" name="authenticity_token" value="HnNJltZaDOaAPImdxwMs+8I43kmgNrus0yzwWQO/Nht8Pt2sFwRD6mfIsz2wWKjzvfy7iUlksqCnwfSDXL6amw==">
+                          <button type="submit" aria-label="Remove from project" class="dropdown-item btn-link btn-block text-left" data-confirm="This will remove this card from the project" role="menuitem">
+                          Remove from project
+                          </button>
+                          <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                       </form>
+                    </details-menu>
+                 </details>
+                 <span class="card-octicon position-absolute">
+                    <div class="text-green">
+                       <svg class="octicon octicon-issue-closed closed js-issue-octicon" aria-label="Closed Issue" viewBox="0 0 16 16" version="1.1" width="16" height="16" role="img">
+                          <path fill-rule="evenodd" d="M7 10h2v2H7v-2zm2-6H7v5h2V4zm1.5 1.5l-1 1L12 9l4-4.5-1-1L12 7l-1.5-1.5zM8 13.7A5.71 5.71 0 0 1 2.3 8c0-3.14 2.56-5.7 5.7-5.7 1.83 0 3.45.88 4.5 2.2l.92-.92A6.947 6.947 0 0 0 8 1C4.14 1 1 4.14 1 8s3.14 7 7 7 7-3.14 7-7l-1.52 1.52c-.66 2.41-2.86 4.19-5.48 4.19v-.01z"></path>
+                       </svg>
+                    </div>
+                 </span>
+                 <a class="h5 d-block lh-condensed mb-1 mr-5 js-project-card-issue-link" data-content-id="446941706" data-content-label="issue" data-content-repo-label="chotchy-inc/PATRASHOP-Web" data-content-repo-url="/chotchy-inc/PATRASHOP-Web" href="/chotchy-inc/PATRASHOP-Web/issues/760">/meをredirectしないようにしたい（5h）</a>
+                 <small class="text-gray d-block pr-6">
+                 <span class="js-issue-number">#760</span>
+                 opened by <a class="text-gray-dark" href="/konojunya">konojunya</a>
+                 </small>
+                 <span class="labels d-block pb-1 pr-6">
+                 <button type="button" class="btn-link css-truncate js-card-filter issue-card-label IssueLabel mt-1 v-align-middle css-truncate css-truncate-target" style="max-width: 150px; background-color: #a2eeef; color: #000000" data-card-filter="label:enhancement" title="機能追加">
+                 <span class="css-truncate-target">enhancement</span>
+                 </button>
+                 </span>
+                 <div class="AvatarStack AvatarStack--right  position-absolute bottom-0 right-0 mr-2 mb-2">
+                    <div class="AvatarStack-body tooltipped tooltipped-nw tooltipped-multiline tooltipped-align-right-1" aria-label="Assigned to konojunya">
+                       <button type="button" class="btn-link avatar js-card-filter" aria-label="Assignee konojunya" data-card-filter="assignee:konojunya">
+                       <img src="https://avatars2.githubusercontent.com/u/12035578?s=40&amp;v=4" width="20" height="20" alt="@konojunya">
+                       </button>
+                    </div>
+                 </div>
+              </div>
+              <span class="sr-only">Press enter to move this card</span>
+           </div>
+        </div>
+     </div>
+     <div class="issue-card project-card position-relative rounded-2 box-shadow bg-white my-2 mx-0 border ws-normal js-project-column-card js-socket-channel js-updatable-content draggable js-keyboard-movable" id="card-21100202" tabindex="0" data-retain-focus="" data-channel="projects:cards:21100202" data-url="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21100202" data-card-id="21100202" data-column-id="2731060" data-content-type="Issue" data-content-id="435674621" data-card-assignee="[&quot;kinokoruumu&quot;]" data-card-author="[&quot;makki0205&quot;]" data-card-label="[&quot;enhancement&quot;]" data-card-repo="[&quot;chotchy-inc/patrashop-web&quot;]" data-card-state="[&quot;closed&quot;]" data-card-title="[&quot;ストーリーのアイコン変更（1h）&quot;,&quot;713&quot;,&quot;#713&quot;]" data-card-type="[&quot;issue&quot;]" data-card-is="[&quot;closed&quot;,&quot;issue&quot;]">
+        <div class="archived-header d-none flex-row border-bottom p-2 text-small">
+           <div class="flex-auto d-flex flex-row min-width-0 position-relative">
+              <div class="d-flex flex-row">
+                 <svg class="octicon octicon-archive" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M13 2H1v2h12V2zM0 4a1 1 0 0 0 1 1v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H1a1 1 0 0 0-1 1v2zm2 1h10v9H2V5zm2 3h6V7H4v1z"></path>
+                 </svg>
+              </div>
+              <div class="d-flex flex-row flex-auto">
+                 <div class="pl-2 pr-3">
+                    From <span class="text-bold">Done</span>
+                 </div>
+              </div>
+              <div class="d-flex flex-row">
+                 <!-- '"` --><!-- </textarea></xmp> -->
+                 <form class="js-unarchive-project-card" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21100202/unarchive" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="put"><input type="hidden" name="authenticity_token" value="eBodgtV9d/70S72ic8y0EQjVOJ/mJg45+4Yxmbp4axn6T/8lC7wTC0da7EPF6VDICfOtmR9L7hMjsjIQPL2oqQ==">
+                    <button class="btn-link" type="submit">Restore</button>
+                    <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                 </form>
+              </div>
+           </div>
+        </div>
+        <div class="d-flex flex-row">
+           <div class="flex-auto min-width-0 position-relative">
+              <div class="pl-5 p-2 position-relative js-project-issue-details-container">
+                 <details class="details-reset details-overlay card-menu-container dropdown position-static">
+                    <summary class="text-gray-light link-hover-blue btn-octicon p-0 position-absolute right-0 top-0 mt-2 mr-3" aria-label="Card menu" aria-haspopup="menu">
+                       <svg class="octicon octicon-kebab-horizontal" viewBox="0 0 13 16" version="1.1" width="13" height="16" aria-hidden="true">
+                          <path fill-rule="evenodd" d="M1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM13 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"></path>
+                       </svg>
+                    </summary>
+                    <details-menu class="dropdown-menu dropdown-menu-sw top-0 mt-4 mr-1" role="menu">
+                       <clipboard-copy class="dropdown-item text-left btn-link" value="https://github.com/chotchy-inc/PATRASHOP-Web/projects/1#card-21100202" role="menuitem" tabindex="0">
+                          Copy card link
+                       </clipboard-copy>
+                       <hr class="p-0 mt-2 mb-2">
+                       <!-- '"` --><!-- </textarea></xmp> -->
+                       <form class="js-archive-project-card archive-dropdown-item" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21100202/archive" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="put"><input type="hidden" name="authenticity_token" value="DpE3Boj/ASuXWkTK1TQKJxfoJ4gCM+pMk+xjOfHRjItmlOnaoW0tG+YoLSQw+XVjav37lMXvbkITNQpkJs/HQQ==">
+                          <button class="dropdown-item text-left btn-link btn-block" type="submit" role="menuitem">Archive</button>
+                          <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                       </form>
+                       <!-- '"` --><!-- </textarea></xmp> -->
+                       <form class="js-remove-card-after-request d-inline" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21100202" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="delete"><input type="hidden" name="authenticity_token" value="86zjUU9gPicF3LJPrPuEAK9ZvZ1sKXIyGNGFKfJO5RTNurwCFtUFxwiGo3MdvnMox1v+4Rw9CirhGxypyVXSdQ==">
+                          <button type="submit" aria-label="Remove from project" class="dropdown-item btn-link btn-block text-left" data-confirm="This will remove this card from the project" role="menuitem">
+                          Remove from project
+                          </button>
+                          <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                       </form>
+                    </details-menu>
+                 </details>
+                 <span class="card-octicon position-absolute">
+                    <div class="text-green">
+                       <svg class="octicon octicon-issue-closed closed js-issue-octicon" aria-label="Closed Issue" viewBox="0 0 16 16" version="1.1" width="16" height="16" role="img">
+                          <path fill-rule="evenodd" d="M7 10h2v2H7v-2zm2-6H7v5h2V4zm1.5 1.5l-1 1L12 9l4-4.5-1-1L12 7l-1.5-1.5zM8 13.7A5.71 5.71 0 0 1 2.3 8c0-3.14 2.56-5.7 5.7-5.7 1.83 0 3.45.88 4.5 2.2l.92-.92A6.947 6.947 0 0 0 8 1C4.14 1 1 4.14 1 8s3.14 7 7 7 7-3.14 7-7l-1.52 1.52c-.66 2.41-2.86 4.19-5.48 4.19v-.01z"></path>
+                       </svg>
+                    </div>
+                 </span>
+                 <a class="h5 d-block lh-condensed mb-1 mr-5 js-project-card-issue-link" data-content-id="435674621" data-content-label="issue" data-content-repo-label="chotchy-inc/PATRASHOP-Web" data-content-repo-url="/chotchy-inc/PATRASHOP-Web" href="/chotchy-inc/PATRASHOP-Web/issues/713">ストーリーのアイコン変更（1h）</a>
+                 <small class="text-gray d-block pr-6">
+                 <span class="js-issue-number">#713</span>
+                 opened by <a class="text-gray-dark" href="/makki0205">makki0205</a>
+                 </small>
+                 <span class="labels d-block pb-1 pr-6">
+                 <button type="button" class="btn-link css-truncate js-card-filter issue-card-label IssueLabel mt-1 v-align-middle css-truncate css-truncate-target" style="max-width: 150px; background-color: #a2eeef; color: #000000" data-card-filter="label:enhancement" title="機能追加">
+                 <span class="css-truncate-target">enhancement</span>
+                 </button>
+                 </span>
+                 <div class="AvatarStack AvatarStack--right  position-absolute bottom-0 right-0 mr-2 mb-2">
+                    <div class="AvatarStack-body tooltipped tooltipped-nw tooltipped-multiline tooltipped-align-right-1" aria-label="Assigned to kinokoruumu">
+                       <button type="button" class="btn-link avatar js-card-filter" aria-label="Assignee kinokoruumu" data-card-filter="assignee:kinokoruumu">
+                       <img src="https://avatars1.githubusercontent.com/u/15682771?s=40&amp;v=4" width="20" height="20" alt="@kinokoruumu">
+                       </button>
+                    </div>
+                 </div>
+              </div>
+              <span class="sr-only">Press enter to move this card</span>
+           </div>
+        </div>
+     </div>
+     <div class="issue-card project-card position-relative rounded-2 box-shadow bg-white my-2 mx-0 border ws-normal js-project-column-card js-socket-channel js-updatable-content draggable js-keyboard-movable" id="card-21538413" tabindex="0" data-retain-focus="" data-channel="projects:cards:21538413" data-url="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21538413" data-card-id="21538413" data-column-id="2731060" data-content-type="Issue" data-content-id="444241394" data-card-assignee="[&quot;konojunya&quot;]" data-card-author="[&quot;konojunya&quot;]" data-card-label="[&quot;enhancement&quot;]" data-card-repo="[&quot;chotchy-inc/patrashop-web&quot;]" data-card-state="[&quot;closed&quot;]" data-card-title="[&quot;typescriptを少しきつくする（8h）&quot;,&quot;754&quot;,&quot;#754&quot;]" data-card-type="[&quot;issue&quot;]" data-card-is="[&quot;closed&quot;,&quot;issue&quot;]">
+        <div class="archived-header d-none flex-row border-bottom p-2 text-small">
+           <div class="flex-auto d-flex flex-row min-width-0 position-relative">
+              <div class="d-flex flex-row">
+                 <svg class="octicon octicon-archive" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M13 2H1v2h12V2zM0 4a1 1 0 0 0 1 1v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H1a1 1 0 0 0-1 1v2zm2 1h10v9H2V5zm2 3h6V7H4v1z"></path>
+                 </svg>
+              </div>
+              <div class="d-flex flex-row flex-auto">
+                 <div class="pl-2 pr-3">
+                    From <span class="text-bold">Done</span>
+                 </div>
+              </div>
+              <div class="d-flex flex-row">
+                 <!-- '"` --><!-- </textarea></xmp> -->
+                 <form class="js-unarchive-project-card" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21538413/unarchive" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="put"><input type="hidden" name="authenticity_token" value="vWWrdYO6iAAVtgI+onZZmGtT6Qii9DvA/Meq6xyClFFcgoOO94jjtuY3joM4qhyivKimM4WQEzHB+0OTUmIMdw==">
+                    <button class="btn-link" type="submit">Restore</button>
+                    <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                 </form>
+              </div>
+           </div>
+        </div>
+        <div class="d-flex flex-row">
+           <div class="flex-auto min-width-0 position-relative">
+              <div class="pl-5 p-2 position-relative js-project-issue-details-container">
+                 <details class="details-reset details-overlay card-menu-container dropdown position-static">
+                    <summary class="text-gray-light link-hover-blue btn-octicon p-0 position-absolute right-0 top-0 mt-2 mr-3" aria-label="Card menu" aria-haspopup="menu">
+                       <svg class="octicon octicon-kebab-horizontal" viewBox="0 0 13 16" version="1.1" width="13" height="16" aria-hidden="true">
+                          <path fill-rule="evenodd" d="M1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM13 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"></path>
+                       </svg>
+                    </summary>
+                    <details-menu class="dropdown-menu dropdown-menu-sw top-0 mt-4 mr-1" role="menu">
+                       <clipboard-copy class="dropdown-item text-left btn-link" value="https://github.com/chotchy-inc/PATRASHOP-Web/projects/1#card-21538413" role="menuitem" tabindex="0">
+                          Copy card link
+                       </clipboard-copy>
+                       <hr class="p-0 mt-2 mb-2">
+                       <!-- '"` --><!-- </textarea></xmp> -->
+                       <form class="js-archive-project-card archive-dropdown-item" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21538413/archive" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="put"><input type="hidden" name="authenticity_token" value="+vFIUnw+pSDEyWP1eBuI8oyJL8APxiH4FTYRAgGPzQRfoXmUumzuynVoH2RU2YXPxkrarOWztNJMmfdCBj1p/w==">
+                          <button class="dropdown-item text-left btn-link btn-block" type="submit" role="menuitem">Archive</button>
+                          <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                       </form>
+                       <!-- '"` --><!-- </textarea></xmp> -->
+                       <form class="js-remove-card-after-request d-inline" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21538413" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="delete"><input type="hidden" name="authenticity_token" value="sCnQO0hTGK04UKInP8gWDYi/NFE8CM7DsjfGhdfv2ksEjmdIagexlCiScE4DcxxD8rdHCtRa9ZU+ZO2d3b0RlA==">
+                          <button type="submit" aria-label="Remove from project" class="dropdown-item btn-link btn-block text-left" data-confirm="This will remove this card from the project" role="menuitem">
+                          Remove from project
+                          </button>
+                          <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                       </form>
+                    </details-menu>
+                 </details>
+                 <span class="card-octicon position-absolute">
+                    <div class="text-green">
+                       <svg class="octicon octicon-issue-closed closed js-issue-octicon" aria-label="Closed Issue" viewBox="0 0 16 16" version="1.1" width="16" height="16" role="img">
+                          <path fill-rule="evenodd" d="M7 10h2v2H7v-2zm2-6H7v5h2V4zm1.5 1.5l-1 1L12 9l4-4.5-1-1L12 7l-1.5-1.5zM8 13.7A5.71 5.71 0 0 1 2.3 8c0-3.14 2.56-5.7 5.7-5.7 1.83 0 3.45.88 4.5 2.2l.92-.92A6.947 6.947 0 0 0 8 1C4.14 1 1 4.14 1 8s3.14 7 7 7 7-3.14 7-7l-1.52 1.52c-.66 2.41-2.86 4.19-5.48 4.19v-.01z"></path>
+                       </svg>
+                    </div>
+                 </span>
+                 <a class="h5 d-block lh-condensed mb-1 mr-5 js-project-card-issue-link" data-content-id="444241394" data-content-label="issue" data-content-repo-label="chotchy-inc/PATRASHOP-Web" data-content-repo-url="/chotchy-inc/PATRASHOP-Web" href="/chotchy-inc/PATRASHOP-Web/issues/754">typescriptを少しきつくする（8h）</a>
+                 <small class="text-gray d-block pr-6">
+                 <span class="js-issue-number">#754</span>
+                 opened by <a class="text-gray-dark" href="/konojunya">konojunya</a>
+                 </small>
+                 <span class="labels d-block pb-1 pr-6">
+                 <button type="button" class="btn-link css-truncate js-card-filter issue-card-label IssueLabel mt-1 v-align-middle css-truncate css-truncate-target" style="max-width: 150px; background-color: #a2eeef; color: #000000" data-card-filter="label:enhancement" title="機能追加">
+                 <span class="css-truncate-target">enhancement</span>
+                 </button>
+                 </span>
+                 <div class="AvatarStack AvatarStack--right  position-absolute bottom-0 right-0 mr-2 mb-2">
+                    <div class="AvatarStack-body tooltipped tooltipped-nw tooltipped-multiline tooltipped-align-right-1" aria-label="Assigned to konojunya">
+                       <button type="button" class="btn-link avatar js-card-filter" aria-label="Assignee konojunya" data-card-filter="assignee:konojunya">
+                       <img src="https://avatars2.githubusercontent.com/u/12035578?s=40&amp;v=4" width="20" height="20" alt="@konojunya">
+                       </button>
+                    </div>
+                 </div>
+              </div>
+              <span class="sr-only">Press enter to move this card</span>
+           </div>
+        </div>
+     </div>
+     <div class="issue-card project-card position-relative rounded-2 box-shadow bg-white my-2 mx-0 border ws-normal js-project-column-card js-socket-channel js-updatable-content draggable js-keyboard-movable" id="card-21416604" tabindex="0" data-retain-focus="" data-channel="projects:cards:21416604" data-url="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21416604" data-card-id="21416604" data-column-id="2731060" data-content-type="Issue" data-content-id="443269677" data-card-assignee="[&quot;konojunya&quot;]" data-card-author="[&quot;konojunya&quot;]" data-card-label="[&quot;bug&quot;]" data-card-repo="[&quot;chotchy-inc/patrashop-web&quot;]" data-card-state="[&quot;closed&quot;]" data-card-title="[&quot;isinstagramの場合lazyloadしないようにする（3h）&quot;,&quot;751&quot;,&quot;#751&quot;]" data-card-type="[&quot;issue&quot;]" data-card-is="[&quot;closed&quot;,&quot;issue&quot;]">
+        <div class="archived-header d-none flex-row border-bottom p-2 text-small">
+           <div class="flex-auto d-flex flex-row min-width-0 position-relative">
+              <div class="d-flex flex-row">
+                 <svg class="octicon octicon-archive" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M13 2H1v2h12V2zM0 4a1 1 0 0 0 1 1v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H1a1 1 0 0 0-1 1v2zm2 1h10v9H2V5zm2 3h6V7H4v1z"></path>
+                 </svg>
+              </div>
+              <div class="d-flex flex-row flex-auto">
+                 <div class="pl-2 pr-3">
+                    From <span class="text-bold">Done</span>
+                 </div>
+              </div>
+              <div class="d-flex flex-row">
+                 <!-- '"` --><!-- </textarea></xmp> -->
+                 <form class="js-unarchive-project-card" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21416604/unarchive" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="put"><input type="hidden" name="authenticity_token" value="NJ4Qdxx9+NDWh4HEnlSHADYNuMqcno3KI0KX3qSLDO433kPjQuDb85n2c7PAnsqeXzdwEJKlhvV5xhRoXZl1xQ==">
+                    <button class="btn-link" type="submit">Restore</button>
+                    <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                 </form>
+              </div>
+           </div>
+        </div>
+        <div class="d-flex flex-row">
+           <div class="flex-auto min-width-0 position-relative">
+              <div class="pl-5 p-2 position-relative js-project-issue-details-container">
+                 <details class="details-reset details-overlay card-menu-container dropdown position-static">
+                    <summary class="text-gray-light link-hover-blue btn-octicon p-0 position-absolute right-0 top-0 mt-2 mr-3" aria-label="Card menu" aria-haspopup="menu">
+                       <svg class="octicon octicon-kebab-horizontal" viewBox="0 0 13 16" version="1.1" width="13" height="16" aria-hidden="true">
+                          <path fill-rule="evenodd" d="M1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM13 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"></path>
+                       </svg>
+                    </summary>
+                    <details-menu class="dropdown-menu dropdown-menu-sw top-0 mt-4 mr-1" role="menu">
+                       <clipboard-copy class="dropdown-item text-left btn-link" value="https://github.com/chotchy-inc/PATRASHOP-Web/projects/1#card-21416604" role="menuitem" tabindex="0">
+                          Copy card link
+                       </clipboard-copy>
+                       <hr class="p-0 mt-2 mb-2">
+                       <!-- '"` --><!-- </textarea></xmp> -->
+                       <form class="js-archive-project-card archive-dropdown-item" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21416604/archive" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="put"><input type="hidden" name="authenticity_token" value="MV8Bc133G9szEuzYc3frYSfrcntItegeT1r5sqzXTjQagFkMeFwzgvw2aw93ECRE7QgmK/nwoL+bketKar6Afw==">
+                          <button class="dropdown-item text-left btn-link btn-block" type="submit" role="menuitem">Archive</button>
+                          <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                       </form>
+                       <!-- '"` --><!-- </textarea></xmp> -->
+                       <form class="js-remove-card-after-request d-inline" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21416604" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="delete"><input type="hidden" name="authenticity_token" value="eL1N3HayHa5zBMMV9pz4JtfqB9A6xHjnxe0Rwys9gGVZLvPBomQHJ5MUMekEtX+tmOeMPIAioJoB20oNiW2fhg==">
+                          <button type="submit" aria-label="Remove from project" class="dropdown-item btn-link btn-block text-left" data-confirm="This will remove this card from the project" role="menuitem">
+                          Remove from project
+                          </button>
+                          <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                       </form>
+                    </details-menu>
+                 </details>
+                 <span class="card-octicon position-absolute">
+                    <div class="text-green">
+                       <svg class="octicon octicon-issue-closed closed js-issue-octicon" aria-label="Closed Issue" viewBox="0 0 16 16" version="1.1" width="16" height="16" role="img">
+                          <path fill-rule="evenodd" d="M7 10h2v2H7v-2zm2-6H7v5h2V4zm1.5 1.5l-1 1L12 9l4-4.5-1-1L12 7l-1.5-1.5zM8 13.7A5.71 5.71 0 0 1 2.3 8c0-3.14 2.56-5.7 5.7-5.7 1.83 0 3.45.88 4.5 2.2l.92-.92A6.947 6.947 0 0 0 8 1C4.14 1 1 4.14 1 8s3.14 7 7 7 7-3.14 7-7l-1.52 1.52c-.66 2.41-2.86 4.19-5.48 4.19v-.01z"></path>
+                       </svg>
+                    </div>
+                 </span>
+                 <a class="h5 d-block lh-condensed mb-1 mr-5 js-project-card-issue-link" data-content-id="443269677" data-content-label="issue" data-content-repo-label="chotchy-inc/PATRASHOP-Web" data-content-repo-url="/chotchy-inc/PATRASHOP-Web" href="/chotchy-inc/PATRASHOP-Web/issues/751">isInstagramの場合LazyLoadしないようにする（3h）</a>
+                 <small class="text-gray d-block pr-6">
+                 <span class="js-issue-number">#751</span>
+                 opened by <a class="text-gray-dark" href="/konojunya">konojunya</a>
+                 </small>
+                 <span class="labels d-block pb-1 pr-6">
+                 <button type="button" class="btn-link css-truncate js-card-filter issue-card-label IssueLabel mt-1 v-align-middle css-truncate css-truncate-target" style="max-width: 150px; background-color: #d73a4a; color: #ffffff" data-card-filter="label:bug" title="バグ">
+                 <span class="css-truncate-target">bug</span>
+                 </button>
+                 </span>
+                 <div class="AvatarStack AvatarStack--right  position-absolute bottom-0 right-0 mr-2 mb-2">
+                    <div class="AvatarStack-body tooltipped tooltipped-nw tooltipped-multiline tooltipped-align-right-1" aria-label="Assigned to konojunya">
+                       <button type="button" class="btn-link avatar js-card-filter" aria-label="Assignee konojunya" data-card-filter="assignee:konojunya">
+                       <img src="https://avatars2.githubusercontent.com/u/12035578?s=40&amp;v=4" width="20" height="20" alt="@konojunya">
+                       </button>
+                    </div>
+                 </div>
+              </div>
+              <span class="sr-only">Press enter to move this card</span>
+           </div>
+        </div>
+     </div>
+     <div class="issue-card project-card position-relative rounded-2 box-shadow bg-white my-2 mx-0 border ws-normal js-project-column-card js-socket-channel js-updatable-content draggable js-keyboard-movable" id="card-21417300" tabindex="0" data-retain-focus="" data-channel="projects:cards:21417300" data-url="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21417300" data-card-id="21417300" data-column-id="2731060" data-content-type="Issue" data-content-id="443274890" data-card-assignee="[&quot;konojunya&quot;]" data-card-author="[&quot;konojunya&quot;]" data-card-label="[&quot;enhancement&quot;]" data-card-repo="[&quot;chotchy-inc/patrashop-web&quot;]" data-card-state="[&quot;closed&quot;]" data-card-title="[&quot;gtmの実装（1h）&quot;,&quot;752&quot;,&quot;#752&quot;]" data-card-type="[&quot;issue&quot;]" data-card-is="[&quot;closed&quot;,&quot;issue&quot;]">
+        <div class="archived-header d-none flex-row border-bottom p-2 text-small">
+           <div class="flex-auto d-flex flex-row min-width-0 position-relative">
+              <div class="d-flex flex-row">
+                 <svg class="octicon octicon-archive" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M13 2H1v2h12V2zM0 4a1 1 0 0 0 1 1v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H1a1 1 0 0 0-1 1v2zm2 1h10v9H2V5zm2 3h6V7H4v1z"></path>
+                 </svg>
+              </div>
+              <div class="d-flex flex-row flex-auto">
+                 <div class="pl-2 pr-3">
+                    From <span class="text-bold">Done</span>
+                 </div>
+              </div>
+              <div class="d-flex flex-row">
+                 <!-- '"` --><!-- </textarea></xmp> -->
+                 <form class="js-unarchive-project-card" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21417300/unarchive" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="put"><input type="hidden" name="authenticity_token" value="hI4+CrZGMzxh4anoT9PuiAiX5uD57UqJHHFVgnWshzCBo4O5i0a78J8K/8KjRiZRD1YF20HoOP51DQpLyJELAA==">
+                    <button class="btn-link" type="submit">Restore</button>
+                    <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                 </form>
+              </div>
+           </div>
+        </div>
+        <div class="d-flex flex-row">
+           <div class="flex-auto min-width-0 position-relative">
+              <div class="pl-5 p-2 position-relative js-project-issue-details-container">
+                 <details class="details-reset details-overlay card-menu-container dropdown position-static">
+                    <summary class="text-gray-light link-hover-blue btn-octicon p-0 position-absolute right-0 top-0 mt-2 mr-3" aria-label="Card menu" aria-haspopup="menu">
+                       <svg class="octicon octicon-kebab-horizontal" viewBox="0 0 13 16" version="1.1" width="13" height="16" aria-hidden="true">
+                          <path fill-rule="evenodd" d="M1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM13 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"></path>
+                       </svg>
+                    </summary>
+                    <details-menu class="dropdown-menu dropdown-menu-sw top-0 mt-4 mr-1" role="menu">
+                       <clipboard-copy class="dropdown-item text-left btn-link" value="https://github.com/chotchy-inc/PATRASHOP-Web/projects/1#card-21417300" role="menuitem" tabindex="0">
+                          Copy card link
+                       </clipboard-copy>
+                       <hr class="p-0 mt-2 mb-2">
+                       <!-- '"` --><!-- </textarea></xmp> -->
+                       <form class="js-archive-project-card archive-dropdown-item" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21417300/archive" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="put"><input type="hidden" name="authenticity_token" value="lxT2tCbcg8Xajpet3MqCRKiQVdoNqow0mxJE4Bn6NG4LJOJC3yXUIVyEUwZz0JbBabw5ZyvzuxzYu6BK0de6bQ==">
+                          <button class="dropdown-item text-left btn-link btn-block" type="submit" role="menuitem">Archive</button>
+                          <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                       </form>
+                       <!-- '"` --><!-- </textarea></xmp> -->
+                       <form class="js-remove-card-after-request d-inline" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21417300" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="delete"><input type="hidden" name="authenticity_token" value="g2LsuQNRJTW7b42UzN7Kq+yrXVGEf1Zg+1ejp/GhpQ9gTDwbzPNa//PONbopo/iEcvY9w85BNbP6tzfjEQjAMg==">
+                          <button type="submit" aria-label="Remove from project" class="dropdown-item btn-link btn-block text-left" data-confirm="This will remove this card from the project" role="menuitem">
+                          Remove from project
+                          </button>
+                          <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                       </form>
+                    </details-menu>
+                 </details>
+                 <span class="card-octicon position-absolute">
+                    <div class="text-green">
+                       <svg class="octicon octicon-issue-closed closed js-issue-octicon" aria-label="Closed Issue" viewBox="0 0 16 16" version="1.1" width="16" height="16" role="img">
+                          <path fill-rule="evenodd" d="M7 10h2v2H7v-2zm2-6H7v5h2V4zm1.5 1.5l-1 1L12 9l4-4.5-1-1L12 7l-1.5-1.5zM8 13.7A5.71 5.71 0 0 1 2.3 8c0-3.14 2.56-5.7 5.7-5.7 1.83 0 3.45.88 4.5 2.2l.92-.92A6.947 6.947 0 0 0 8 1C4.14 1 1 4.14 1 8s3.14 7 7 7 7-3.14 7-7l-1.52 1.52c-.66 2.41-2.86 4.19-5.48 4.19v-.01z"></path>
+                       </svg>
+                    </div>
+                 </span>
+                 <a class="h5 d-block lh-condensed mb-1 mr-5 js-project-card-issue-link" data-content-id="443274890" data-content-label="issue" data-content-repo-label="chotchy-inc/PATRASHOP-Web" data-content-repo-url="/chotchy-inc/PATRASHOP-Web" href="/chotchy-inc/PATRASHOP-Web/issues/752">GTMの実装（1h）</a>
+                 <small class="text-gray d-block pr-6">
+                 <span class="js-issue-number">#752</span>
+                 opened by <a class="text-gray-dark" href="/konojunya">konojunya</a>
+                 </small>
+                 <span class="labels d-block pb-1 pr-6">
+                 <button type="button" class="btn-link css-truncate js-card-filter issue-card-label IssueLabel mt-1 v-align-middle css-truncate css-truncate-target" style="max-width: 150px; background-color: #a2eeef; color: #000000" data-card-filter="label:enhancement" title="機能追加">
+                 <span class="css-truncate-target">enhancement</span>
+                 </button>
+                 </span>
+                 <div class="AvatarStack AvatarStack--right  position-absolute bottom-0 right-0 mr-2 mb-2">
+                    <div class="AvatarStack-body tooltipped tooltipped-nw tooltipped-multiline tooltipped-align-right-1" aria-label="Assigned to konojunya">
+                       <button type="button" class="btn-link avatar js-card-filter" aria-label="Assignee konojunya" data-card-filter="assignee:konojunya">
+                       <img src="https://avatars2.githubusercontent.com/u/12035578?s=40&amp;v=4" width="20" height="20" alt="@konojunya">
+                       </button>
+                    </div>
+                 </div>
+              </div>
+              <span class="sr-only">Press enter to move this card</span>
+           </div>
+        </div>
+     </div>
+     <div class="issue-card project-card position-relative rounded-2 box-shadow bg-white my-2 mx-0 border ws-normal js-project-column-card js-socket-channel js-updatable-content draggable js-keyboard-movable" id="card-21404033" tabindex="0" data-retain-focus="" data-channel="projects:cards:21404033" data-url="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21404033" data-card-id="21404033" data-column-id="2731060" data-content-type="Issue" data-content-id="443170243" data-card-assignee="[&quot;konojunya&quot;]" data-card-author="[&quot;konojunya&quot;]" data-card-label="[&quot;enhancement&quot;]" data-card-repo="[&quot;chotchy-inc/patrashop-web&quot;]" data-card-state="[&quot;closed&quot;]" data-card-title="[&quot;reduxのmiddlewareのsentryに通信内容を載せる（3h）&quot;,&quot;749&quot;,&quot;#749&quot;]" data-card-type="[&quot;issue&quot;]" data-card-is="[&quot;closed&quot;,&quot;issue&quot;]">
+        <div class="archived-header d-none flex-row border-bottom p-2 text-small">
+           <div class="flex-auto d-flex flex-row min-width-0 position-relative">
+              <div class="d-flex flex-row">
+                 <svg class="octicon octicon-archive" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M13 2H1v2h12V2zM0 4a1 1 0 0 0 1 1v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H1a1 1 0 0 0-1 1v2zm2 1h10v9H2V5zm2 3h6V7H4v1z"></path>
+                 </svg>
+              </div>
+              <div class="d-flex flex-row flex-auto">
+                 <div class="pl-2 pr-3">
+                    From <span class="text-bold">Done</span>
+                 </div>
+              </div>
+              <div class="d-flex flex-row">
+                 <!-- '"` --><!-- </textarea></xmp> -->
+                 <form class="js-unarchive-project-card" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21404033/unarchive" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="put"><input type="hidden" name="authenticity_token" value="b9MIMN81Bq56YUM3DWcvXbGRiNrf2G9GnLN4qA6GXwWRcgfJ5m1PG+FZeGKb76lFgR6nBA5aSWlTu68Pv4vMYw==">
+                    <button class="btn-link" type="submit">Restore</button>
+                    <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                 </form>
+              </div>
+           </div>
+        </div>
+        <div class="d-flex flex-row">
+           <div class="flex-auto min-width-0 position-relative">
+              <div class="pl-5 p-2 position-relative js-project-issue-details-container">
+                 <details class="details-reset details-overlay card-menu-container dropdown position-static">
+                    <summary class="text-gray-light link-hover-blue btn-octicon p-0 position-absolute right-0 top-0 mt-2 mr-3" aria-label="Card menu" aria-haspopup="menu">
+                       <svg class="octicon octicon-kebab-horizontal" viewBox="0 0 13 16" version="1.1" width="13" height="16" aria-hidden="true">
+                          <path fill-rule="evenodd" d="M1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM13 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"></path>
+                       </svg>
+                    </summary>
+                    <details-menu class="dropdown-menu dropdown-menu-sw top-0 mt-4 mr-1" role="menu">
+                       <clipboard-copy class="dropdown-item text-left btn-link" value="https://github.com/chotchy-inc/PATRASHOP-Web/projects/1#card-21404033" role="menuitem" tabindex="0">
+                          Copy card link
+                       </clipboard-copy>
+                       <hr class="p-0 mt-2 mb-2">
+                       <!-- '"` --><!-- </textarea></xmp> -->
+                       <form class="js-archive-project-card archive-dropdown-item" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21404033/archive" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="put"><input type="hidden" name="authenticity_token" value="Szni5R7B04MYqImbHYv67H9aqVT784OztWbbxWeM+UFBu+p44mx+1FJUnl1sabf1e863pYvtWQNSP2vo93rUkg==">
+                          <button class="dropdown-item text-left btn-link btn-block" type="submit" role="menuitem">Archive</button>
+                          <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                       </form>
+                       <!-- '"` --><!-- </textarea></xmp> -->
+                       <form class="js-remove-card-after-request d-inline" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21404033" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="delete"><input type="hidden" name="authenticity_token" value="sjDVTz9choFhB2beAQw/RFWGVMN+SrLUsbHdSTcYajFxQfKtsywOxK88axeUN4V/4pyHf8fLKBSDhvV0GpWiUw==">
+                          <button type="submit" aria-label="Remove from project" class="dropdown-item btn-link btn-block text-left" data-confirm="This will remove this card from the project" role="menuitem">
+                          Remove from project
+                          </button>
+                          <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                       </form>
+                    </details-menu>
+                 </details>
+                 <span class="card-octicon position-absolute">
+                    <div class="text-green">
+                       <svg class="octicon octicon-issue-closed closed js-issue-octicon" aria-label="Closed Issue" viewBox="0 0 16 16" version="1.1" width="16" height="16" role="img">
+                          <path fill-rule="evenodd" d="M7 10h2v2H7v-2zm2-6H7v5h2V4zm1.5 1.5l-1 1L12 9l4-4.5-1-1L12 7l-1.5-1.5zM8 13.7A5.71 5.71 0 0 1 2.3 8c0-3.14 2.56-5.7 5.7-5.7 1.83 0 3.45.88 4.5 2.2l.92-.92A6.947 6.947 0 0 0 8 1C4.14 1 1 4.14 1 8s3.14 7 7 7 7-3.14 7-7l-1.52 1.52c-.66 2.41-2.86 4.19-5.48 4.19v-.01z"></path>
+                       </svg>
+                    </div>
+                 </span>
+                 <a class="h5 d-block lh-condensed mb-1 mr-5 js-project-card-issue-link" data-content-id="443170243" data-content-label="issue" data-content-repo-label="chotchy-inc/PATRASHOP-Web" data-content-repo-url="/chotchy-inc/PATRASHOP-Web" href="/chotchy-inc/PATRASHOP-Web/issues/749">reduxのmiddlewareのsentryに通信内容を載せる（3h）</a>
+                 <small class="text-gray d-block pr-6">
+                 <span class="js-issue-number">#749</span>
+                 opened by <a class="text-gray-dark" href="/konojunya">konojunya</a>
+                 </small>
+                 <span class="labels d-block pb-1 pr-6">
+                 <button type="button" class="btn-link css-truncate js-card-filter issue-card-label IssueLabel mt-1 v-align-middle css-truncate css-truncate-target" style="max-width: 150px; background-color: #a2eeef; color: #000000" data-card-filter="label:enhancement" title="機能追加">
+                 <span class="css-truncate-target">enhancement</span>
+                 </button>
+                 </span>
+                 <div class="AvatarStack AvatarStack--right  position-absolute bottom-0 right-0 mr-2 mb-2">
+                    <div class="AvatarStack-body tooltipped tooltipped-nw tooltipped-multiline tooltipped-align-right-1" aria-label="Assigned to konojunya">
+                       <button type="button" class="btn-link avatar js-card-filter" aria-label="Assignee konojunya" data-card-filter="assignee:konojunya">
+                       <img src="https://avatars2.githubusercontent.com/u/12035578?s=40&amp;v=4" width="20" height="20" alt="@konojunya">
+                       </button>
+                    </div>
+                 </div>
+              </div>
+              <span class="sr-only">Press enter to move this card</span>
+           </div>
+        </div>
+     </div>
+     <div class="issue-card project-card position-relative rounded-2 box-shadow bg-white my-2 mx-0 border ws-normal js-project-column-card js-socket-channel js-updatable-content draggable js-keyboard-movable" id="card-21106455" tabindex="0" data-retain-focus="" data-channel="projects:cards:21106455" data-url="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21106455" data-card-id="21106455" data-column-id="2731060" data-content-type="Issue" data-content-id="440637663" data-card-assignee="[&quot;konojunya&quot;]" data-card-author="[&quot;kinokoruumu&quot;]" data-card-label="[&quot;enhancement&quot;]" data-card-repo="[&quot;chotchy-inc/patrashop-web&quot;]" data-card-state="[&quot;closed&quot;]" data-card-title="[&quot;google&quot;,&quot;tag&quot;,&quot;manager（1h）&quot;,&quot;739&quot;,&quot;#739&quot;]" data-card-type="[&quot;issue&quot;]" data-card-is="[&quot;closed&quot;,&quot;issue&quot;]">
+        <div class="archived-header d-none flex-row border-bottom p-2 text-small">
+           <div class="flex-auto d-flex flex-row min-width-0 position-relative">
+              <div class="d-flex flex-row">
+                 <svg class="octicon octicon-archive" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M13 2H1v2h12V2zM0 4a1 1 0 0 0 1 1v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H1a1 1 0 0 0-1 1v2zm2 1h10v9H2V5zm2 3h6V7H4v1z"></path>
+                 </svg>
+              </div>
+              <div class="d-flex flex-row flex-auto">
+                 <div class="pl-2 pr-3">
+                    From <span class="text-bold">Done</span>
+                 </div>
+              </div>
+              <div class="d-flex flex-row">
+                 <!-- '"` --><!-- </textarea></xmp> -->
+                 <form class="js-unarchive-project-card" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21106455/unarchive" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="put"><input type="hidden" name="authenticity_token" value="fiJ9FHkimvMbWITgfaAqguybhwkEMqGpBwZoBeC2opRU+gViT8Sw2+2+PDRdcc6xdh4j8OZRHR3DIS/FzbHHxA==">
+                    <button class="btn-link" type="submit">Restore</button>
+                    <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                 </form>
+              </div>
+           </div>
+        </div>
+        <div class="d-flex flex-row">
+           <div class="flex-auto min-width-0 position-relative">
+              <div class="pl-5 p-2 position-relative js-project-issue-details-container">
+                 <details class="details-reset details-overlay card-menu-container dropdown position-static">
+                    <summary class="text-gray-light link-hover-blue btn-octicon p-0 position-absolute right-0 top-0 mt-2 mr-3" aria-label="Card menu" aria-haspopup="menu">
+                       <svg class="octicon octicon-kebab-horizontal" viewBox="0 0 13 16" version="1.1" width="13" height="16" aria-hidden="true">
+                          <path fill-rule="evenodd" d="M1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM13 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"></path>
+                       </svg>
+                    </summary>
+                    <details-menu class="dropdown-menu dropdown-menu-sw top-0 mt-4 mr-1" role="menu">
+                       <clipboard-copy class="dropdown-item text-left btn-link" value="https://github.com/chotchy-inc/PATRASHOP-Web/projects/1#card-21106455" role="menuitem" tabindex="0">
+                          Copy card link
+                       </clipboard-copy>
+                       <hr class="p-0 mt-2 mb-2">
+                       <!-- '"` --><!-- </textarea></xmp> -->
+                       <form class="js-archive-project-card archive-dropdown-item" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21106455/archive" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="put"><input type="hidden" name="authenticity_token" value="xjU487cTOwJaukPm/sBlEs6RIoReTWiKRdz9l+YbIhii+cHp643KsugmXZVCG0jdQNtJ8Ob5M/ntbYosR5v+Wg==">
+                          <button class="dropdown-item text-left btn-link btn-block" type="submit" role="menuitem">Archive</button>
+                          <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                       </form>
+                       <!-- '"` --><!-- </textarea></xmp> -->
+                       <form class="js-remove-card-after-request d-inline" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21106455" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="delete"><input type="hidden" name="authenticity_token" value="1Sd4aqcJwNPjHsXGI1TD++j2QN4lffCj82H1s6svQTxFwbYV10eOkcZG/+5v/Wcz43GKKUCorwKnQ2BBvIF3lw==">
+                          <button type="submit" aria-label="Remove from project" class="dropdown-item btn-link btn-block text-left" data-confirm="This will remove this card from the project" role="menuitem">
+                          Remove from project
+                          </button>
+                          <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                       </form>
+                    </details-menu>
+                 </details>
+                 <span class="card-octicon position-absolute">
+                    <div class="text-green">
+                       <svg class="octicon octicon-issue-closed closed js-issue-octicon" aria-label="Closed Issue" viewBox="0 0 16 16" version="1.1" width="16" height="16" role="img">
+                          <path fill-rule="evenodd" d="M7 10h2v2H7v-2zm2-6H7v5h2V4zm1.5 1.5l-1 1L12 9l4-4.5-1-1L12 7l-1.5-1.5zM8 13.7A5.71 5.71 0 0 1 2.3 8c0-3.14 2.56-5.7 5.7-5.7 1.83 0 3.45.88 4.5 2.2l.92-.92A6.947 6.947 0 0 0 8 1C4.14 1 1 4.14 1 8s3.14 7 7 7 7-3.14 7-7l-1.52 1.52c-.66 2.41-2.86 4.19-5.48 4.19v-.01z"></path>
+                       </svg>
+                    </div>
+                 </span>
+                 <a class="h5 d-block lh-condensed mb-1 mr-5 js-project-card-issue-link" data-content-id="440637663" data-content-label="issue" data-content-repo-label="chotchy-inc/PATRASHOP-Web" data-content-repo-url="/chotchy-inc/PATRASHOP-Web" href="/chotchy-inc/PATRASHOP-Web/issues/739">google tag manager（1h）</a>
+                 <small class="text-gray d-block pr-6">
+                 <span class="js-issue-number">#739</span>
+                 opened by <a class="text-gray-dark" href="/kinokoruumu">kinokoruumu</a>
+                 </small>
+                 <span class="labels d-block pb-1 pr-6">
+                 <button type="button" class="btn-link css-truncate js-card-filter issue-card-label IssueLabel mt-1 v-align-middle css-truncate css-truncate-target" style="max-width: 150px; background-color: #a2eeef; color: #000000" data-card-filter="label:enhancement" title="機能追加">
+                 <span class="css-truncate-target">enhancement</span>
+                 </button>
+                 </span>
+                 <div class="AvatarStack AvatarStack--right  position-absolute bottom-0 right-0 mr-2 mb-2">
+                    <div class="AvatarStack-body tooltipped tooltipped-nw tooltipped-multiline tooltipped-align-right-1" aria-label="Assigned to konojunya">
+                       <button type="button" class="btn-link avatar js-card-filter" aria-label="Assignee konojunya" data-card-filter="assignee:konojunya">
+                       <img src="https://avatars2.githubusercontent.com/u/12035578?s=40&amp;v=4" width="20" height="20" alt="@konojunya">
+                       </button>
+                    </div>
+                 </div>
+              </div>
+              <span class="sr-only">Press enter to move this card</span>
+           </div>
+        </div>
+     </div>
+     <div class="issue-card project-card position-relative rounded-2 box-shadow bg-white my-2 mx-0 border ws-normal js-project-column-card js-socket-channel js-updatable-content draggable js-keyboard-movable" id="card-21078516" tabindex="0" data-retain-focus="" data-channel="projects:cards:21078516" data-url="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21078516" data-card-id="21078516" data-column-id="2731060" data-content-type="Issue" data-content-id="440424314" data-card-assignee="[&quot;konojunya&quot;]" data-card-author="[&quot;konojunya&quot;]" data-card-label="[&quot;bug&quot;]" data-card-repo="[&quot;chotchy-inc/patrashop-web&quot;]" data-card-state="[&quot;closed&quot;]" data-card-title="[&quot;null.getboundingclientrect()をしているところをnull&quot;,&quot;checkする（1h）&quot;,&quot;736&quot;,&quot;#736&quot;]" data-card-type="[&quot;issue&quot;]" data-card-is="[&quot;closed&quot;,&quot;issue&quot;]">
+        <div class="archived-header d-none flex-row border-bottom p-2 text-small">
+           <div class="flex-auto d-flex flex-row min-width-0 position-relative">
+              <div class="d-flex flex-row">
+                 <svg class="octicon octicon-archive" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M13 2H1v2h12V2zM0 4a1 1 0 0 0 1 1v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H1a1 1 0 0 0-1 1v2zm2 1h10v9H2V5zm2 3h6V7H4v1z"></path>
+                 </svg>
+              </div>
+              <div class="d-flex flex-row flex-auto">
+                 <div class="pl-2 pr-3">
+                    From <span class="text-bold">Done</span>
+                 </div>
+              </div>
+              <div class="d-flex flex-row">
+                 <!-- '"` --><!-- </textarea></xmp> -->
+                 <form class="js-unarchive-project-card" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21078516/unarchive" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="put"><input type="hidden" name="authenticity_token" value="2yQedDM1hhOYdTOUA2DTjPRm/hs7dE0Mw8XaelkcITMhFrRDwueNUW0NwiwUZt3bc89n/NjP2tZbAm6FAUD3pg==">
+                    <button class="btn-link" type="submit">Restore</button>
+                    <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                 </form>
+              </div>
+           </div>
+        </div>
+        <div class="d-flex flex-row">
+           <div class="flex-auto min-width-0 position-relative">
+              <div class="pl-5 p-2 position-relative js-project-issue-details-container">
+                 <details class="details-reset details-overlay card-menu-container dropdown position-static">
+                    <summary class="text-gray-light link-hover-blue btn-octicon p-0 position-absolute right-0 top-0 mt-2 mr-3" aria-label="Card menu" aria-haspopup="menu">
+                       <svg class="octicon octicon-kebab-horizontal" viewBox="0 0 13 16" version="1.1" width="13" height="16" aria-hidden="true">
+                          <path fill-rule="evenodd" d="M1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM13 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"></path>
+                       </svg>
+                    </summary>
+                    <details-menu class="dropdown-menu dropdown-menu-sw top-0 mt-4 mr-1" role="menu">
+                       <clipboard-copy class="dropdown-item text-left btn-link" value="https://github.com/chotchy-inc/PATRASHOP-Web/projects/1#card-21078516" role="menuitem" tabindex="0">
+                          Copy card link
+                       </clipboard-copy>
+                       <hr class="p-0 mt-2 mb-2">
+                       <!-- '"` --><!-- </textarea></xmp> -->
+                       <form class="js-archive-project-card archive-dropdown-item" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21078516/archive" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="put"><input type="hidden" name="authenticity_token" value="eL0LvcNd00mdDY2BfiA3X6tgFBOAS2O7WDi8vURD0sYAf2l7MUnskLWgOfbk5xMsWSw3tjch4J76Hhn42gwCLw==">
+                          <button class="dropdown-item text-left btn-link btn-block" type="submit" role="menuitem">Archive</button>
+                          <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                       </form>
+                       <!-- '"` --><!-- </textarea></xmp> -->
+                       <form class="js-remove-card-after-request d-inline" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21078516" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="delete"><input type="hidden" name="authenticity_token" value="lyg2SkoT2P4Xu3pKFduAFtEyOZG58CeQ8UQ5fF9etMzfehj7ukqrnVYbi/zC0p+zkuoiebKKwwuMkvHfEo/Ptw==">
+                          <button type="submit" aria-label="Remove from project" class="dropdown-item btn-link btn-block text-left" data-confirm="This will remove this card from the project" role="menuitem">
+                          Remove from project
+                          </button>
+                          <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                       </form>
+                    </details-menu>
+                 </details>
+                 <span class="card-octicon position-absolute">
+                    <div class="text-green">
+                       <svg class="octicon octicon-issue-closed closed js-issue-octicon" aria-label="Closed Issue" viewBox="0 0 16 16" version="1.1" width="16" height="16" role="img">
+                          <path fill-rule="evenodd" d="M7 10h2v2H7v-2zm2-6H7v5h2V4zm1.5 1.5l-1 1L12 9l4-4.5-1-1L12 7l-1.5-1.5zM8 13.7A5.71 5.71 0 0 1 2.3 8c0-3.14 2.56-5.7 5.7-5.7 1.83 0 3.45.88 4.5 2.2l.92-.92A6.947 6.947 0 0 0 8 1C4.14 1 1 4.14 1 8s3.14 7 7 7 7-3.14 7-7l-1.52 1.52c-.66 2.41-2.86 4.19-5.48 4.19v-.01z"></path>
+                       </svg>
+                    </div>
+                 </span>
+                 <a class="h5 d-block lh-condensed mb-1 mr-5 js-project-card-issue-link" data-content-id="440424314" data-content-label="issue" data-content-repo-label="chotchy-inc/PATRASHOP-Web" data-content-repo-url="/chotchy-inc/PATRASHOP-Web" href="/chotchy-inc/PATRASHOP-Web/issues/736">null.getBoundingClientRect()をしているところをnull checkする（1h）</a>
+                 <small class="text-gray d-block pr-6">
+                 <span class="js-issue-number">#736</span>
+                 opened by <a class="text-gray-dark" href="/konojunya">konojunya</a>
+                 </small>
+                 <span class="labels d-block pb-1 pr-6">
+                 <button type="button" class="btn-link css-truncate js-card-filter issue-card-label IssueLabel mt-1 v-align-middle css-truncate css-truncate-target" style="max-width: 150px; background-color: #d73a4a; color: #ffffff" data-card-filter="label:bug" title="バグ">
+                 <span class="css-truncate-target">bug</span>
+                 </button>
+                 </span>
+                 <div class="AvatarStack AvatarStack--right  position-absolute bottom-0 right-0 mr-2 mb-2">
+                    <div class="AvatarStack-body tooltipped tooltipped-nw tooltipped-multiline tooltipped-align-right-1" aria-label="Assigned to konojunya">
+                       <button type="button" class="btn-link avatar js-card-filter" aria-label="Assignee konojunya" data-card-filter="assignee:konojunya">
+                       <img src="https://avatars2.githubusercontent.com/u/12035578?s=40&amp;v=4" width="20" height="20" alt="@konojunya">
+                       </button>
+                    </div>
+                 </div>
+              </div>
+              <span class="sr-only">Press enter to move this card</span>
+           </div>
+        </div>
+     </div>
+     <div class="issue-card project-card position-relative rounded-2 box-shadow bg-white my-2 mx-0 border ws-normal js-project-column-card js-socket-channel js-updatable-content draggable js-keyboard-movable" id="card-21367067" tabindex="0" data-retain-focus="" data-channel="projects:cards:21367067" data-url="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21367067" data-card-id="21367067" data-column-id="2731060" data-content-type="Issue" data-content-id="442970747" data-card-assignee="[&quot;konojunya&quot;]" data-card-author="[&quot;konojunya&quot;]" data-card-label="[&quot;bug&quot;]" data-card-repo="[&quot;chotchy-inc/patrashop-web&quot;]" data-card-state="[&quot;closed&quot;]" data-card-title="[&quot;intersectionobserverが使えない場合を考えて実装（1h）&quot;,&quot;745&quot;,&quot;#745&quot;]" data-card-type="[&quot;issue&quot;]" data-card-is="[&quot;closed&quot;,&quot;issue&quot;]">
+        <div class="archived-header d-none flex-row border-bottom p-2 text-small">
+           <div class="flex-auto d-flex flex-row min-width-0 position-relative">
+              <div class="d-flex flex-row">
+                 <svg class="octicon octicon-archive" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M13 2H1v2h12V2zM0 4a1 1 0 0 0 1 1v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H1a1 1 0 0 0-1 1v2zm2 1h10v9H2V5zm2 3h6V7H4v1z"></path>
+                 </svg>
+              </div>
+              <div class="d-flex flex-row flex-auto">
+                 <div class="pl-2 pr-3">
+                    From <span class="text-bold">Done</span>
+                 </div>
+              </div>
+              <div class="d-flex flex-row">
+                 <!-- '"` --><!-- </textarea></xmp> -->
+                 <form class="js-unarchive-project-card" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21367067/unarchive" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="put"><input type="hidden" name="authenticity_token" value="mrqzTfnn/s4P4MH3lhjyfAdSVBrVOdvMJCafvXVLgTQ/kGkvkoSm0sxR9zWPoEHlwu4DRNT+k575XFjH+5T+9g==">
+                    <button class="btn-link" type="submit">Restore</button>
+                    <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                 </form>
+              </div>
+           </div>
+        </div>
+        <div class="d-flex flex-row">
+           <div class="flex-auto min-width-0 position-relative">
+              <div class="pl-5 p-2 position-relative js-project-issue-details-container">
+                 <details class="details-reset details-overlay card-menu-container dropdown position-static">
+                    <summary class="text-gray-light link-hover-blue btn-octicon p-0 position-absolute right-0 top-0 mt-2 mr-3" aria-label="Card menu" aria-haspopup="menu">
+                       <svg class="octicon octicon-kebab-horizontal" viewBox="0 0 13 16" version="1.1" width="13" height="16" aria-hidden="true">
+                          <path fill-rule="evenodd" d="M1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM13 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"></path>
+                       </svg>
+                    </summary>
+                    <details-menu class="dropdown-menu dropdown-menu-sw top-0 mt-4 mr-1" role="menu">
+                       <clipboard-copy class="dropdown-item text-left btn-link" value="https://github.com/chotchy-inc/PATRASHOP-Web/projects/1#card-21367067" role="menuitem" tabindex="0">
+                          Copy card link
+                       </clipboard-copy>
+                       <hr class="p-0 mt-2 mb-2">
+                       <!-- '"` --><!-- </textarea></xmp> -->
+                       <form class="js-archive-project-card archive-dropdown-item" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21367067/archive" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="put"><input type="hidden" name="authenticity_token" value="w/qy8JbeTbj11CjymxAZ/PrLLHo3i+MJEe5QYJEK6J8w0ObPuVTeEOjDNA26NP12kJd8aMsl5VDfXWsU5+pQ1w==">
+                          <button class="dropdown-item text-left btn-link btn-block" type="submit" role="menuitem">Archive</button>
+                          <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                       </form>
+                       <!-- '"` --><!-- </textarea></xmp> -->
+                       <form class="js-remove-card-after-request d-inline" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21367067" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="delete"><input type="hidden" name="authenticity_token" value="FfUGfkkkE6VphhqAk3blu6OuE+u16drcyj+2MHgsWzjT1Tz6vrWfGYM7o6U+NTF/0zseGWe+Lvc/e7M3abiV+Q==">
+                          <button type="submit" aria-label="Remove from project" class="dropdown-item btn-link btn-block text-left" data-confirm="This will remove this card from the project" role="menuitem">
+                          Remove from project
+                          </button>
+                          <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                       </form>
+                    </details-menu>
+                 </details>
+                 <span class="card-octicon position-absolute">
+                    <div class="text-green">
+                       <svg class="octicon octicon-issue-closed closed js-issue-octicon" aria-label="Closed Issue" viewBox="0 0 16 16" version="1.1" width="16" height="16" role="img">
+                          <path fill-rule="evenodd" d="M7 10h2v2H7v-2zm2-6H7v5h2V4zm1.5 1.5l-1 1L12 9l4-4.5-1-1L12 7l-1.5-1.5zM8 13.7A5.71 5.71 0 0 1 2.3 8c0-3.14 2.56-5.7 5.7-5.7 1.83 0 3.45.88 4.5 2.2l.92-.92A6.947 6.947 0 0 0 8 1C4.14 1 1 4.14 1 8s3.14 7 7 7 7-3.14 7-7l-1.52 1.52c-.66 2.41-2.86 4.19-5.48 4.19v-.01z"></path>
+                       </svg>
+                    </div>
+                 </span>
+                 <a class="h5 d-block lh-condensed mb-1 mr-5 js-project-card-issue-link" data-content-id="442970747" data-content-label="issue" data-content-repo-label="chotchy-inc/PATRASHOP-Web" data-content-repo-url="/chotchy-inc/PATRASHOP-Web" href="/chotchy-inc/PATRASHOP-Web/issues/745">IntersectionObserverが使えない場合を考えて実装（1h）</a>
+                 <small class="text-gray d-block pr-6">
+                 <span class="js-issue-number">#745</span>
+                 opened by <a class="text-gray-dark" href="/konojunya">konojunya</a>
+                 </small>
+                 <span class="labels d-block pb-1 pr-6">
+                 <button type="button" class="btn-link css-truncate js-card-filter issue-card-label IssueLabel mt-1 v-align-middle css-truncate css-truncate-target" style="max-width: 150px; background-color: #d73a4a; color: #ffffff" data-card-filter="label:bug" title="バグ">
+                 <span class="css-truncate-target">bug</span>
+                 </button>
+                 </span>
+                 <div class="AvatarStack AvatarStack--right  position-absolute bottom-0 right-0 mr-2 mb-2">
+                    <div class="AvatarStack-body tooltipped tooltipped-nw tooltipped-multiline tooltipped-align-right-1" aria-label="Assigned to konojunya">
+                       <button type="button" class="btn-link avatar js-card-filter" aria-label="Assignee konojunya" data-card-filter="assignee:konojunya">
+                       <img src="https://avatars2.githubusercontent.com/u/12035578?s=40&amp;v=4" width="20" height="20" alt="@konojunya">
+                       </button>
+                    </div>
+                 </div>
+              </div>
+              <span class="sr-only">Press enter to move this card</span>
+           </div>
+        </div>
+     </div>
+     <div class="issue-card project-card position-relative rounded-2 box-shadow bg-white my-2 mx-0 border ws-normal js-project-column-card js-socket-channel js-updatable-content draggable js-keyboard-movable" id="card-21366510" tabindex="0" data-retain-focus="" data-channel="projects:cards:21366510" data-url="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21366510" data-card-id="21366510" data-column-id="2731060" data-content-type="Issue" data-content-id="442967460" data-card-assignee="[&quot;kinokoruumu&quot;]" data-card-author="[&quot;kinokoruumu&quot;]" data-card-label="[&quot;enhancement&quot;]" data-card-repo="[&quot;chotchy-inc/patrashop-web&quot;]" data-card-state="[&quot;closed&quot;]" data-card-title="[&quot;チェックイン済みメッセージを出す&quot;,&quot;(2h)&quot;,&quot;742&quot;,&quot;#742&quot;]" data-card-type="[&quot;issue&quot;]" data-card-is="[&quot;closed&quot;,&quot;issue&quot;]">
+        <div class="archived-header d-none flex-row border-bottom p-2 text-small">
+           <div class="flex-auto d-flex flex-row min-width-0 position-relative">
+              <div class="d-flex flex-row">
+                 <svg class="octicon octicon-archive" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M13 2H1v2h12V2zM0 4a1 1 0 0 0 1 1v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H1a1 1 0 0 0-1 1v2zm2 1h10v9H2V5zm2 3h6V7H4v1z"></path>
+                 </svg>
+              </div>
+              <div class="d-flex flex-row flex-auto">
+                 <div class="pl-2 pr-3">
+                    From <span class="text-bold">Done</span>
+                 </div>
+              </div>
+              <div class="d-flex flex-row">
+                 <!-- '"` --><!-- </textarea></xmp> -->
+                 <form class="js-unarchive-project-card" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21366510/unarchive" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="put"><input type="hidden" name="authenticity_token" value="t5e7CX8PwT4LQsnCyx3WvrQefwEQK3RnXYGyGX+gNfayYoKN0x7gbHt+qAw3BqZZhVSdu1zXA/c02rcqi4YfDQ==">
+                    <button class="btn-link" type="submit">Restore</button>
+                    <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                 </form>
+              </div>
+           </div>
+        </div>
+        <div class="d-flex flex-row">
+           <div class="flex-auto min-width-0 position-relative">
+              <div class="pl-5 p-2 position-relative js-project-issue-details-container">
+                 <details class="details-reset details-overlay card-menu-container dropdown position-static">
+                    <summary class="text-gray-light link-hover-blue btn-octicon p-0 position-absolute right-0 top-0 mt-2 mr-3" aria-label="Card menu" aria-haspopup="menu">
+                       <svg class="octicon octicon-kebab-horizontal" viewBox="0 0 13 16" version="1.1" width="13" height="16" aria-hidden="true">
+                          <path fill-rule="evenodd" d="M1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM13 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"></path>
+                       </svg>
+                    </summary>
+                    <details-menu class="dropdown-menu dropdown-menu-sw top-0 mt-4 mr-1" role="menu">
+                       <clipboard-copy class="dropdown-item text-left btn-link" value="https://github.com/chotchy-inc/PATRASHOP-Web/projects/1#card-21366510" role="menuitem" tabindex="0">
+                          Copy card link
+                       </clipboard-copy>
+                       <hr class="p-0 mt-2 mb-2">
+                       <!-- '"` --><!-- </textarea></xmp> -->
+                       <form class="js-archive-project-card archive-dropdown-item" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21366510/archive" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="put"><input type="hidden" name="authenticity_token" value="Ccs9qajUBV7p4JktosJYNSp/AMv4xOIAoqzdm5iTVg7rIz+/moIjdblitBTFwf5272ouTATAYEQxZ4q8DbSyGQ==">
+                          <button class="dropdown-item text-left btn-link btn-block" type="submit" role="menuitem">Archive</button>
+                          <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                       </form>
+                       <!-- '"` --><!-- </textarea></xmp> -->
+                       <form class="js-remove-card-after-request d-inline" action="/chotchy-inc/PATRASHOP-Web/projects/1/cards/21366510" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="delete"><input type="hidden" name="authenticity_token" value="XT1N0cdyKocpymdCBz0iGwHebGwagipKhqC2Z3ZBLBzzg6s93ZnY6HBpdWyMPkN5k6/W9vjtaxj631FuzPN+Zg==">
+                          <button type="submit" aria-label="Remove from project" class="dropdown-item btn-link btn-block text-left" data-confirm="This will remove this card from the project" role="menuitem">
+                          Remove from project
+                          </button>
+                          <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+                       </form>
+                    </details-menu>
+                 </details>
+                 <span class="card-octicon position-absolute">
+                    <div class="text-green">
+                       <svg class="octicon octicon-issue-closed closed js-issue-octicon" aria-label="Closed Issue" viewBox="0 0 16 16" version="1.1" width="16" height="16" role="img">
+                          <path fill-rule="evenodd" d="M7 10h2v2H7v-2zm2-6H7v5h2V4zm1.5 1.5l-1 1L12 9l4-4.5-1-1L12 7l-1.5-1.5zM8 13.7A5.71 5.71 0 0 1 2.3 8c0-3.14 2.56-5.7 5.7-5.7 1.83 0 3.45.88 4.5 2.2l.92-.92A6.947 6.947 0 0 0 8 1C4.14 1 1 4.14 1 8s3.14 7 7 7 7-3.14 7-7l-1.52 1.52c-.66 2.41-2.86 4.19-5.48 4.19v-.01z"></path>
+                       </svg>
+                    </div>
+                 </span>
+                 <a class="h5 d-block lh-condensed mb-1 mr-5 js-project-card-issue-link" data-content-id="442967460" data-content-label="issue" data-content-repo-label="chotchy-inc/PATRASHOP-Web" data-content-repo-url="/chotchy-inc/PATRASHOP-Web" href="/chotchy-inc/PATRASHOP-Web/issues/742">チェックイン済みメッセージを出す (2h)</a>
+                 <small class="text-gray d-block pr-6">
+                 <span class="js-issue-number">#742</span>
+                 opened by <a class="text-gray-dark" href="/kinokoruumu">kinokoruumu</a>
+                 </small>
+                 <span class="labels d-block pb-1 pr-6">
+                 <button type="button" class="btn-link css-truncate js-card-filter issue-card-label IssueLabel mt-1 v-align-middle css-truncate css-truncate-target" style="max-width: 150px; background-color: #a2eeef; color: #000000" data-card-filter="label:enhancement" title="機能追加">
+                 <span class="css-truncate-target">enhancement</span>
+                 </button>
+                 </span>
+                 <div class="AvatarStack AvatarStack--right  position-absolute bottom-0 right-0 mr-2 mb-2">
+                    <div class="AvatarStack-body tooltipped tooltipped-nw tooltipped-multiline tooltipped-align-right-1" aria-label="Assigned to kinokoruumu">
+                       <button type="button" class="btn-link avatar js-card-filter" aria-label="Assignee kinokoruumu" data-card-filter="assignee:kinokoruumu">
+                       <img src="https://avatars1.githubusercontent.com/u/15682771?s=40&amp;v=4" width="20" height="20" alt="@kinokoruumu">
+                       </button>
+                    </div>
+                 </div>
+              </div>
+              <span class="sr-only">Press enter to move this card</span>
+           </div>
+        </div>
+     </div>
+  </div>
+  <div class="p-2 text-small text-gray-light border-top bg-gray-light js-project-column-automation-footer ">
+     Automated as
+     <span class="Label Label--gray js-project-column-automation-summary">
+     Done
+     </span>
+     <button type="button" class="btn-link float-right hide-sm js-project-dialog-button" data-dialog-id="edit-column-automation-2731060" aria-expanded="false" aria-haspopup="dialog">Manage
+     </button>
+  </div>
+  <!-- '"` --><!-- </textarea></xmp> -->
+  <form class="js-project-content-form js-project-update-card" action="/chotchy-inc/PATRASHOP-Web/projects/1/columns/2731060/cards" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="put"><input type="hidden" name="authenticity_token" value="7UTcLOe+Ndd/sRZiNsdtyB7QV5XcMWapeG2YnvTakft8IJrwxJ4Kex9jt0fojj3WncD6DIMJqCIOo9gq1DhIcQ==">
+     <input type="hidden" name="client_uid" class="js-client-uid-field" value="1a3a0de777d4a7a1f3c1d7d4d37526ce">
+     <input type="hidden" name="card_id">
+     <input type="hidden" name="content_id">
+     <input type="hidden" name="content_type">
+     <input type="hidden" name="previous_card_id">
+     <input type="hidden" name="keyboard_move">
+  </form>
+</div>
