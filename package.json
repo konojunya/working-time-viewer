@@ -7,8 +7,10 @@
   "license": "MIT",
   "scripts": {
     "typecheck": "tsc -p . --noEmit",
+    "prebuild": "rm -rf dist",
     "build": "webpack-cli --config webpack.config.js",
     "build:watch": "yarn build --watch",
+    "postbuild": "cp manifest.json ./dist/manifest.json",
     "jest": "jest",
     "test": "BABEL_ENV=test yarn jest -i",
     "test:watch": "yarn jest --watch",
