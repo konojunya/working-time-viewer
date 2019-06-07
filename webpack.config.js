@@ -10,7 +10,9 @@ module.exports = {
   mode: IS_PRODUCTION ? "production" : "development",
   devtool: IS_PRODUCTION ? false : "#source-map",
   entry: {
-    bootstrap: path.join(__dirname, "./src/index.ts")
+    bootstrap: path.join(__dirname, "./src/index.ts"),
+    content_script: path.join(__dirname, "./src/content_script.ts"),
+    background: path.join(__dirname, "./src/background.ts")
   },
   output: {
     filename: "[name].js",
