@@ -13,9 +13,9 @@ module.exports = {
     bootstrap: path.join(__dirname, "./src/index.ts")
   },
   output: {
-    filename: "[name].[chunkhash].js",
-    chunkFilename: "[name].[chunkhash].js",
-    sourceMapFilename: "[name].[chunkhash].js.map",
+    filename: "[name].js",
+    chunkFilename: "[name].js",
+    sourceMapFilename: "[name].js.map",
     path: path.join(__dirname, "./dist")
   },
   resolve: {
