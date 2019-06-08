@@ -47,9 +47,9 @@ module.exports = {
     ]
   },
   plugins: [
+    new WasmPackPlugin({ crateDirectory: path.join(__dirname, "wasm") }),
     new WorkerPlugin(),
     new HtmlWebpackPlugin({ template: "src/index.html" }),
-    new WasmPackPlugin({ crateDirectory: path.join(__dirname, "wasm") }),
     new DefinePlugin({
       "process.env": {
         NODE_ENV: JSON.stringify(process.env.NODE_ENV || "local")
