@@ -1,6 +1,7 @@
-self.addEventListener("message", async (e: MessageEvent) => {
-  const hoge = await import("./hoge");
+const context: Worker = <any>self;
 
-  const p = <any>postMessage;
-  p(hoge.m() + e.data);
+context.addEventListener("message", async (e: MessageEvent) => {
+  const wasm = await import("../wasm/pkg");
+
+  context.postMessage(wasm.calculate_working_time() + e.data);
 });

@@ -3,6 +3,7 @@ const { DefinePlugin } = require("webpack");
 const TerserPlugin = require("terser-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const WorkerPlugin = require("worker-plugin");
+const WasmPackPlugin = require("@wasm-tool/wasm-pack-plugin");
 
 const IS_PRODUCTION = process.env.NODE_ENV === "production";
 
@@ -31,7 +32,10 @@ module.exports = {
         exclude: [/node_modules/, /dist/],
         use: [
           {
-            loader: "babel-loader"
+            loader: "ts-loader",
+            options: {
+              transpileOnly: true
+            }
           }
         ]
       },
@@ -45,6 +49,7 @@ module.exports = {
   plugins: [
     new WorkerPlugin(),
     new HtmlWebpackPlugin({ template: "src/index.html" }),
+    new WasmPackPlugin({ crateDirectory: path.join(__dirname, "wasm") }),
     new DefinePlugin({
       "process.env": {
         NODE_ENV: JSON.stringify(process.env.NODE_ENV || "local")
