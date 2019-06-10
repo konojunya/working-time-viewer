@@ -1,15 +1,16 @@
 {
   "compilerOptions": {
     "target": "ES2017",
-    "module": "commonjs",
+    "module": "ES2017",
     "lib": ["es2017", "dom"],
     "allowJs": false,
     "checkJs": false,
     "jsx": "react",
+    "jsxFactory": "h",
     "declaration": false,
     "declarationMap": false,
     "sourceMap": true,
-    "outDir": "../../dist",
+    "outDir": "./dist",
     "rootDir": "./",
     "pretty": true,
     "removeComments": false,
