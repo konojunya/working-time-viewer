@@ -2,8 +2,8 @@ const path = require("path");
 const { DefinePlugin } = require("webpack");
 const TerserPlugin = require("terser-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const WorkerPlugin = require("worker-plugin");
 const WasmPackPlugin = require("@wasm-tool/wasm-pack-plugin");
+const WorkerPlugin = require("worker-plugin");
 
 const IS_PRODUCTION = process.env.NODE_ENV === "production";
 
@@ -11,30 +11,30 @@ module.exports = {
   mode: IS_PRODUCTION ? "production" : "development",
   devtool: IS_PRODUCTION ? false : "#source-map",
   entry: {
-    bootstrap: path.join(__dirname, "./src/index.ts"),
-    content_script: path.join(__dirname, "./src/content_script.ts"),
-    background: path.join(__dirname, "./src/background.ts")
+    bootstrap: path.join(__dirname, "./src/index.tsx"),
+    content_script: path.join(__dirname, "./src/extentions/content_script.ts"),
+    background: path.join(__dirname, "./src/extentions/background.ts")
   },
   output: {
-    filename: "[name].js",
-    chunkFilename: "[name].js",
-    sourceMapFilename: "[name].js.map",
+    filename: "[name].[hash].js",
+    chunkFilename: "[name].[hash].js",
+    sourceMapFilename: "[name].[hash].js.map",
     path: path.join(__dirname, "./dist")
   },
   resolve: {
-    extensions: [".ts", ".js", ".json", ".wasm"],
+    extensions: [".ts", ".tsx", ".js", ".jsx", ".json", ".wasm"],
     modules: [path.join(__dirname, "node_modules")]
   },
   module: {
     rules: [
       {
-        test: /\.ts$/,
+        test: /\.tsx?$/,
         exclude: [/node_modules/, /dist/],
-        use: [
-          {
-            loader: "babel-loader"
-          }
-        ]
+        loader: "ts-loader"
+      },
+      {
+        test: /\.worker.ts$/,
+        loader: "worker-loader"
       },
       {
         enforce: "pre",

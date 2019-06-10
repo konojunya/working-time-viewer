@@ -1,5 +1,4 @@
 import { h, render } from "preact";
+import { App } from "./components/App";
 
-const Hello = () => <div>hello preact</div>;
-
-render(<Hello />, document.getElementById("app")!);
+render(<App />, document.getElementById("app")!);
