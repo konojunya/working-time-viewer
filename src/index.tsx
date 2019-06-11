@@ -1,4 +1,6 @@
 import { h, render } from "preact";
 import { App } from "./components/App";
+import { Demo } from "./components/demo";
 
-render(<App />, document.getElementById("app")!);
+const Component = process.env.NODE_ENV === "demo" ? Demo : App;
+render(<Component />, document.getElementById("app")!);

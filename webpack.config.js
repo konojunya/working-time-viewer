@@ -4,6 +4,7 @@ const TerserPlugin = require("terser-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const WasmPackPlugin = require("@wasm-tool/wasm-pack-plugin");
 const WorkerPlugin = require("worker-plugin");
+const ManifestPlugin = require("webpack-manifest-plugin");
 
 const IS_PRODUCTION = process.env.NODE_ENV === "production";
 
@@ -54,6 +55,9 @@ module.exports = {
       "process.env": {
         NODE_ENV: JSON.stringify(process.env.NODE_ENV || "local")
       }
+    }),
+    new ManifestPlugin({
+      fileName: "webpack-manifest.json"
     })
   ],
   optimization: {

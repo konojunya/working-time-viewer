@@ -1,6 +1,17 @@
 import { h, Component } from "preact";
+import { WorkingTime } from "../elements/WorkingTime";
 
-export class App extends Component {
+interface State {
+  worker: {
+    [x: string]: number;
+  };
+}
+
+export class App extends Component<{}, State> {
+  public state = {
+    worker: {}
+  };
+
   async componentDidMount() {
     const worker = new Worker("../../extentions/worker", { type: "module" });
     chrome.tabs.query(
@@ -23,9 +34,13 @@ export class App extends Component {
     );
     worker.onmessage = (e: MessageEvent) => {
       console.log(e.data);
+      this.setState({
+        worker: e.data
+      });
     };
   }
+
   render() {
-    return <h1>hello preact</h1>;
+    return <WorkingTime worker={this.state.worker} />;
   }
 }
