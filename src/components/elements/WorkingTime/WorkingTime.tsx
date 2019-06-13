@@ -12,8 +12,24 @@ export class WorkingTime extends Component<Props> {
       <ul>
         {Object.entries(this.props.worker).map(worker => (
           <li>
-            <p>name: {worker[0]}</p>
-            <p>value: {worker[1]}</p>
+            <img
+              src={`https://github.com/${worker[0]}.png`}
+              alt="avatar image"
+            />
+            <div>
+              <a
+                href={`https://github.com/${worker[0]}`}
+                target="_blank"
+                rel="noopener"
+              >
+                @{worker[0]}
+              </a>
+              <br />
+              <p>
+                {worker[1]}
+                <span>hour</span>
+              </p>
+            </div>
           </li>
         ))}
       </ul>

@@ -25,7 +25,7 @@ const manifest = {
   ]
 };
 
-fs.writeFile("dist/manifest.json", JSON.stringify(manifest), (err, data) => {
+fs.writeFile("dist/manifest.json", JSON.stringify(manifest), err => {
   if (err) {
     console.error(err);
   }
